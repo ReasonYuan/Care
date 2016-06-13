@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MainViewController">
+            <connections>
+                <outlet property="btnChat" destination="NW9-eH-xud" id="xUj-Ua-fyL"/>
+                <outlet property="btnDocument" destination="HSy-fu-ncA" id="RZB-on-p1N"/>
+                <outlet property="labelChatNumber" destination="uGH-9H-fGz" id="FpX-mz-gFq"/>
+                <outlet property="labelDocNumber" destination="XBn-tW-FsH" id="d9D-iq-a45"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="LUG-0J-rSP">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="44"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="q5d-LV-yOa">
+                    <rect key="frame" x="281" y="3" width="38" height="38"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="38" id="SpT-jC-jxT"/>
+                        <constraint firstAttribute="width" constant="38" id="uQC-DE-aH5"/>
+                    </constraints>
+                    <state key="normal" image="main_tab_camera.png">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="selectCamera:" destination="-1" eventType="touchUpInside" id="rYU-lt-Wgi"/>
+                    </connections>
+                </button>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DNM-t7-BrT">
+                    <rect key="frame" x="0.0" y="0.0" width="273" height="44"/>
+                    <subviews>
+                        <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HSy-fu-ncA">
+                            <rect key="frame" x="77" y="10" width="118" height="24"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="24" id="rPl-mc-tll"/>
+                                <constraint firstAttribute="width" constant="118" id="seq-PQ-u1X"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                            <state key="normal" title="健康档案管理">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="titleShadowColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            </state>
+                            <state key="disabled" title="健康档案管理">
+                                <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <state key="selected" title="健康档案管理">
+                                <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <state key="highlighted" title="健康档案管理">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="titleShadowColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="selectDocument:" destination="-1" eventType="touchUpInside" id="k8k-Mp-Ok6"/>
+                            </connections>
+                        </button>
+                        <label hidden="YES" opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="99+" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XBn-tW-FsH">
+                            <rect key="frame" x="176" y="4" width="17" height="17"/>
+                            <color key="backgroundColor" red="0.95294117647058818" green="0.33725490196078434" blue="0.34901960784313724" alpha="1" colorSpace="calibratedRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="17" id="WWm-Es-VpY"/>
+                                <constraint firstAttribute="height" constant="17" id="Yx0-5X-ZUn"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="9"/>
+                            <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstItem="XBn-tW-FsH" firstAttribute="centerY" secondItem="HSy-fu-ncA" secondAttribute="centerY" constant="-10" id="6h7-FS-FeC"/>
+                        <constraint firstAttribute="centerY" secondItem="HSy-fu-ncA" secondAttribute="centerY" id="Tyr-PC-l5g"/>
+                        <constraint firstItem="XBn-tW-FsH" firstAttribute="trailing" secondItem="HSy-fu-ncA" secondAttribute="trailing" constant="-2" id="c74-bW-0B1"/>
+                        <constraint firstAttribute="centerX" secondItem="HSy-fu-ncA" secondAttribute="centerX" id="pp4-vb-CJg"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="348-GZ-tZv">
+                    <rect key="frame" x="327" y="0.0" width="273" height="44"/>
+                    <subviews>
+                        <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NW9-eH-xud">
+                            <rect key="frame" x="77" y="9" width="118" height="26"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="118" id="2EZ-LV-bzB"/>
+                                <constraint firstAttribute="height" constant="26" id="8xh-Cb-kPw"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                            <state key="normal" title="我的健康顾问">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <state key="disabled" title="我的健康顾问">
+                                <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="titleShadowColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            </state>
+                            <state key="selected" title="我的健康顾问">
+                                <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <state key="highlighted" title="我的健康顾问">
+                                <color key="titleShadowColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="selectChat:" destination="-1" eventType="touchUpInside" id="Pk1-bt-mFd"/>
+                            </connections>
+                        </button>
+                        <label hidden="YES" opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="99+" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uGH-9H-fGz">
+                            <rect key="frame" x="176" y="4" width="17" height="17"/>
+                            <color key="backgroundColor" red="0.95294117649999999" green="0.33725490200000002" blue="0.34901960780000002" alpha="1" colorSpace="calibratedRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="17" id="P10-An-RtK"/>
+                                <constraint firstAttribute="height" constant="17" id="ilT-vF-ia9"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="9"/>
+                            <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstItem="NW9-eH-xud" firstAttribute="trailing" secondItem="uGH-9H-fGz" secondAttribute="trailing" constant="2" id="8Vb-0g-3dj"/>
+                        <constraint firstAttribute="centerX" secondItem="NW9-eH-xud" secondAttribute="centerX" id="b6g-P1-Z9A"/>
+                        <constraint firstItem="NW9-eH-xud" firstAttribute="centerY" secondItem="uGH-9H-fGz" secondAttribute="centerY" constant="10" id="gyJ-uX-Boa"/>
+                        <constraint firstAttribute="centerY" secondItem="NW9-eH-xud" secondAttribute="centerY" id="kXB-XE-WuP"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="0.10588235294117647" green="0.12156862745098039" blue="0.14901960784313725" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstItem="DNM-t7-BrT" firstAttribute="leading" secondItem="LUG-0J-rSP" secondAttribute="leading" id="5YB-dg-rw4"/>
+                <constraint firstAttribute="centerX" secondItem="q5d-LV-yOa" secondAttribute="centerX" id="6Vf-Cl-ugO"/>
+                <constraint firstItem="DNM-t7-BrT" firstAttribute="top" secondItem="LUG-0J-rSP" secondAttribute="top" id="80u-3n-rT1"/>
+                <constraint firstItem="348-GZ-tZv" firstAttribute="top" secondItem="LUG-0J-rSP" secondAttribute="top" id="cOn-Jc-l1M"/>
+                <constraint firstItem="348-GZ-tZv" firstAttribute="leading" secondItem="q5d-LV-yOa" secondAttribute="trailing" constant="8" id="dua-ts-9Zh"/>
+                <constraint firstAttribute="bottom" secondItem="348-GZ-tZv" secondAttribute="bottom" id="f4O-8p-CqZ"/>
+                <constraint firstItem="q5d-LV-yOa" firstAttribute="leading" secondItem="DNM-t7-BrT" secondAttribute="trailing" constant="8" id="fRP-0D-fLL"/>
+                <constraint firstAttribute="centerY" secondItem="q5d-LV-yOa" secondAttribute="centerY" id="mmk-1v-hfI"/>
+                <constraint firstAttribute="trailing" secondItem="348-GZ-tZv" secondAttribute="trailing" id="uJ1-pG-Wwf"/>
+                <constraint firstAttribute="bottom" secondItem="DNM-t7-BrT" secondAttribute="bottom" id="weP-md-nsb"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="450" y="331"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="main_tab_camera.png" width="60" height="60"/>
+    </resources>
+</document>

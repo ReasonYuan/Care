@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="15A178w" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="AboutDocPlusViewController" customModule="Care" customModuleProvider="target">
+            <connections>
+                <outlet property="detailTextView" destination="1OT-HW-tMo" id="jJX-SE-K9P"/>
+                <outlet property="titleLabel" destination="tJJ-Zb-fZr" id="ZzG-4A-3j3"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="HiTales注册协议" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tJJ-Zb-fZr">
+                    <rect key="frame" x="239" y="203" width="123" height="21"/>
+                    <animations/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo_care.png" translatesAutoresizingMaskIntoConstraints="NO" id="gVT-LR-WER">
+                    <rect key="frame" x="162" y="35" width="277" height="152"/>
+                    <animations/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="152" id="ZzF-hz-cax"/>
+                        <constraint firstAttribute="width" constant="277" id="jYD-rW-Wev"/>
+                    </constraints>
+                </imageView>
+                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" text="关于叶面关于叶面关于叶面关于叶面关于叶面关于叶面关于叶面关于叶面关于叶面关于叶面关于叶面关于叶面关于叶面关于叶面关于叶面关于叶面关于叶面关于叶面关于叶面" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1OT-HW-tMo">
+                    <rect key="frame" x="17" y="232" width="566" height="328"/>
+                    <animations/>
+                    <color key="backgroundColor" red="0.94901960780000005" green="0.94901960780000005" blue="0.94901960780000005" alpha="1" colorSpace="calibratedRGB"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                </textView>
+            </subviews>
+            <animations/>
+            <color key="backgroundColor" red="0.94901960780000005" green="0.94901960780000005" blue="0.94901960780000005" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstItem="tJJ-Zb-fZr" firstAttribute="centerX" secondItem="gVT-LR-WER" secondAttribute="centerX" id="K60-9G-wdZ"/>
+                <constraint firstItem="1OT-HW-tMo" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="17" id="Kpp-ZQ-igr"/>
+                <constraint firstItem="gVT-LR-WER" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="35" id="ROg-GH-KJ9"/>
+                <constraint firstItem="1OT-HW-tMo" firstAttribute="centerX" secondItem="tJJ-Zb-fZr" secondAttribute="centerX" id="V0A-Br-CyE"/>
+                <constraint firstItem="1OT-HW-tMo" firstAttribute="top" secondItem="tJJ-Zb-fZr" secondAttribute="bottom" constant="8" id="iQn-Na-mr2"/>
+                <constraint firstItem="tJJ-Zb-fZr" firstAttribute="top" secondItem="gVT-LR-WER" secondAttribute="bottom" constant="16" id="jg4-4G-p5F"/>
+                <constraint firstItem="1OT-HW-tMo" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="lIa-Oq-jNB"/>
+                <constraint firstAttribute="bottom" secondItem="1OT-HW-tMo" secondAttribute="bottom" constant="40" id="ySa-HW-Ow6"/>
+            </constraints>
+            <point key="canvasLocation" x="342" y="432"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="logo_care.png" width="330" height="275"/>
+    </resources>
+</document>

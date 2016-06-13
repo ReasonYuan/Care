@@ -1,0 +1,1780 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 47;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		230494A01BA6BBF6004FC6ED /* ApiSystem.java in Sources */ = {isa = PBXBuildFile; fileRef = 230493761BA6BBF6004FC6ED /* ApiSystem.java */; };
+		230494A11BA6BBF6004FC6ED /* AlarmClock.java in Sources */ = {isa = PBXBuildFile; fileRef = 230493781BA6BBF6004FC6ED /* AlarmClock.java */; };
+		230494A21BA6BBF6004FC6ED /* MedicalItem.java in Sources */ = {isa = PBXBuildFile; fileRef = 2304937A1BA6BBF6004FC6ED /* MedicalItem.java */; };
+		230494A31BA6BBF6004FC6ED /* MedicalReport.java in Sources */ = {isa = PBXBuildFile; fileRef = 2304937B1BA6BBF6004FC6ED /* MedicalReport.java */; };
+		230494A41BA6BBF6004FC6ED /* CertificationStatus.java in Sources */ = {isa = PBXBuildFile; fileRef = 2304937C1BA6BBF6004FC6ED /* CertificationStatus.java */; };
+		230494A51BA6BBF6004FC6ED /* ChartEntity.java in Sources */ = {isa = PBXBuildFile; fileRef = 2304937D1BA6BBF6004FC6ED /* ChartEntity.java */; };
+		230494A61BA6BBF6004FC6ED /* ChatUserInfo.java in Sources */ = {isa = PBXBuildFile; fileRef = 2304937E1BA6BBF6004FC6ED /* ChatUserInfo.java */; };
+		230494A71BA6BBF6004FC6ED /* City.java in Sources */ = {isa = PBXBuildFile; fileRef = 2304937F1BA6BBF6004FC6ED /* City.java */; };
+		230494A81BA6BBF6004FC6ED /* Contacts.java in Sources */ = {isa = PBXBuildFile; fileRef = 230493801BA6BBF6004FC6ED /* Contacts.java */; };
+		230494A91BA6BBF6004FC6ED /* Department.java in Sources */ = {isa = PBXBuildFile; fileRef = 230493811BA6BBF6004FC6ED /* Department.java */; };
+		230494AA1BA6BBF6004FC6ED /* Doctor.java in Sources */ = {isa = PBXBuildFile; fileRef = 230493821BA6BBF6004FC6ED /* Doctor.java */; };
+		230494AB1BA6BBF6004FC6ED /* Exam.java in Sources */ = {isa = PBXBuildFile; fileRef = 230493831BA6BBF6004FC6ED /* Exam.java */; };
+		230494AC1BA6BBF6004FC6ED /* FollowUp.java in Sources */ = {isa = PBXBuildFile; fileRef = 230493841BA6BBF6004FC6ED /* FollowUp.java */; };
+		230494AD1BA6BBF6004FC6ED /* FollowUpTemple.java in Sources */ = {isa = PBXBuildFile; fileRef = 230493851BA6BBF6004FC6ED /* FollowUpTemple.java */; };
+		230494AE1BA6BBF6004FC6ED /* HalcyonEntity.java in Sources */ = {isa = PBXBuildFile; fileRef = 230493861BA6BBF6004FC6ED /* HalcyonEntity.java */; };
+		230494AF1BA6BBF6004FC6ED /* HomeData.java in Sources */ = {isa = PBXBuildFile; fileRef = 230493871BA6BBF6004FC6ED /* HomeData.java */; };
+		230494B01BA6BBF6004FC6ED /* HomeOneDayData.java in Sources */ = {isa = PBXBuildFile; fileRef = 230493881BA6BBF6004FC6ED /* HomeOneDayData.java */; };
+		230494B11BA6BBF6004FC6ED /* Hospital.java in Sources */ = {isa = PBXBuildFile; fileRef = 230493891BA6BBF6004FC6ED /* Hospital.java */; };
+		230494B21BA6BBF6004FC6ED /* ItemExam.java in Sources */ = {isa = PBXBuildFile; fileRef = 2304938A1BA6BBF6004FC6ED /* ItemExam.java */; };
+		230494B31BA6BBF6004FC6ED /* LeaveMessage.java in Sources */ = {isa = PBXBuildFile; fileRef = 2304938B1BA6BBF6004FC6ED /* LeaveMessage.java */; };
+		230494B41BA6BBF6004FC6ED /* Medicine.java in Sources */ = {isa = PBXBuildFile; fileRef = 2304938C1BA6BBF6004FC6ED /* Medicine.java */; };
+		230494B51BA6BBF6004FC6ED /* OnceFollowUpCycle.java in Sources */ = {isa = PBXBuildFile; fileRef = 2304938D1BA6BBF6004FC6ED /* OnceFollowUpCycle.java */; };
+		230494B61BA6BBF6004FC6ED /* Patient.java in Sources */ = {isa = PBXBuildFile; fileRef = 2304938E1BA6BBF6004FC6ED /* Patient.java */; };
+		230494B71BA6BBF6004FC6ED /* PatientFriend.java in Sources */ = {isa = PBXBuildFile; fileRef = 2304938F1BA6BBF6004FC6ED /* PatientFriend.java */; };
+		230494B81BA6BBF6004FC6ED /* Person.java in Sources */ = {isa = PBXBuildFile; fileRef = 230493901BA6BBF6004FC6ED /* Person.java */; };
+		230494B91BA6BBF6004FC6ED /* Photo.java in Sources */ = {isa = PBXBuildFile; fileRef = 230493911BA6BBF6004FC6ED /* Photo.java */; };
+		230494BA1BA6BBF6004FC6ED /* PhotoRecord.java in Sources */ = {isa = PBXBuildFile; fileRef = 230493921BA6BBF6004FC6ED /* PhotoRecord.java */; };
+		230494BB1BA6BBF6004FC6ED /* MyRelationship.java in Sources */ = {isa = PBXBuildFile; fileRef = 230493941BA6BBF6004FC6ED /* MyRelationship.java */; };
+		230494BC1BA6BBF6004FC6ED /* PatientAbstract.java in Sources */ = {isa = PBXBuildFile; fileRef = 230493951BA6BBF6004FC6ED /* PatientAbstract.java */; };
+		230494BD1BA6BBF6004FC6ED /* PatientRecommendName.java in Sources */ = {isa = PBXBuildFile; fileRef = 230493961BA6BBF6004FC6ED /* PatientRecommendName.java */; };
+		230494BE1BA6BBF6004FC6ED /* RecordAbstract.java in Sources */ = {isa = PBXBuildFile; fileRef = 230493971BA6BBF6004FC6ED /* RecordAbstract.java */; };
+		230494BF1BA6BBF6004FC6ED /* RecordData.java in Sources */ = {isa = PBXBuildFile; fileRef = 230493981BA6BBF6004FC6ED /* RecordData.java */; };
+		230494C01BA6BBF6004FC6ED /* SearchFilter.java in Sources */ = {isa = PBXBuildFile; fileRef = 230493991BA6BBF6004FC6ED /* SearchFilter.java */; };
+		230494C11BA6BBF6004FC6ED /* SearchParams.java in Sources */ = {isa = PBXBuildFile; fileRef = 2304939A1BA6BBF6004FC6ED /* SearchParams.java */; };
+		230494C21BA6BBF6004FC6ED /* StandardExamRecord.java in Sources */ = {isa = PBXBuildFile; fileRef = 2304939B1BA6BBF6004FC6ED /* StandardExamRecord.java */; };
+		230494C31BA6BBF6004FC6ED /* Record.java in Sources */ = {isa = PBXBuildFile; fileRef = 2304939C1BA6BBF6004FC6ED /* Record.java */; };
+		230494C41BA6BBF6004FC6ED /* RecordExams.java in Sources */ = {isa = PBXBuildFile; fileRef = 2304939D1BA6BBF6004FC6ED /* RecordExams.java */; };
+		230494C51BA6BBF6004FC6ED /* RecordInfo.java in Sources */ = {isa = PBXBuildFile; fileRef = 2304939E1BA6BBF6004FC6ED /* RecordInfo.java */; };
+		230494C61BA6BBF6004FC6ED /* RecordItem.java in Sources */ = {isa = PBXBuildFile; fileRef = 2304939F1BA6BBF6004FC6ED /* RecordItem.java */; };
+		230494C71BA6BBF6004FC6ED /* RecordItemSamp.java in Sources */ = {isa = PBXBuildFile; fileRef = 230493A01BA6BBF6004FC6ED /* RecordItemSamp.java */; };
+		230494C81BA6BBF6004FC6ED /* RecordType.java in Sources */ = {isa = PBXBuildFile; fileRef = 230493A11BA6BBF6004FC6ED /* RecordType.java */; };
+		230494C91BA6BBF6004FC6ED /* Remark.java in Sources */ = {isa = PBXBuildFile; fileRef = 230493A21BA6BBF6004FC6ED /* Remark.java */; };
+		230494CA1BA6BBF6004FC6ED /* ScoreDetail.java in Sources */ = {isa = PBXBuildFile; fileRef = 230493A31BA6BBF6004FC6ED /* ScoreDetail.java */; };
+		230494CB1BA6BBF6004FC6ED /* SurveyPatientItem.java in Sources */ = {isa = PBXBuildFile; fileRef = 230493A41BA6BBF6004FC6ED /* SurveyPatientItem.java */; };
+		230494CC1BA6BBF6004FC6ED /* SurveyRecordItem.java in Sources */ = {isa = PBXBuildFile; fileRef = 230493A51BA6BBF6004FC6ED /* SurveyRecordItem.java */; };
+		230494CD1BA6BBF6004FC6ED /* Tag.java in Sources */ = {isa = PBXBuildFile; fileRef = 230493A61BA6BBF6004FC6ED /* Tag.java */; };
+		230494CE1BA6BBF6004FC6ED /* Timer.java in Sources */ = {isa = PBXBuildFile; fileRef = 230493A71BA6BBF6004FC6ED /* Timer.java */; };
+		230494CF1BA6BBF6004FC6ED /* TimerMember.java in Sources */ = {isa = PBXBuildFile; fileRef = 230493A81BA6BBF6004FC6ED /* TimerMember.java */; };
+		230494D01BA6BBF6004FC6ED /* User.java in Sources */ = {isa = PBXBuildFile; fileRef = 230493A91BA6BBF6004FC6ED /* User.java */; };
+		230494D11BA6BBF6004FC6ED /* UserAction.java in Sources */ = {isa = PBXBuildFile; fileRef = 230493AA1BA6BBF6004FC6ED /* UserAction.java */; };
+		230494D21BA6BBF6004FC6ED /* Version.java in Sources */ = {isa = PBXBuildFile; fileRef = 230493AB1BA6BBF6004FC6ED /* Version.java */; };
+		230494D31BA6BBF6004FC6ED /* VisualData.java in Sources */ = {isa = PBXBuildFile; fileRef = 230493AD1BA6BBF6004FC6ED /* VisualData.java */; };
+		230494D41BA6BBF6004FC6ED /* VisualizeEntity.java in Sources */ = {isa = PBXBuildFile; fileRef = 230493AE1BA6BBF6004FC6ED /* VisualizeEntity.java */; };
+		230494D51BA6BBF6004FC6ED /* VisualMap.java in Sources */ = {isa = PBXBuildFile; fileRef = 230493AF1BA6BBF6004FC6ED /* VisualMap.java */; };
+		230494D61BA6BBF6004FC6ED /* VisualizeCard.java in Sources */ = {isa = PBXBuildFile; fileRef = 230493B01BA6BBF6004FC6ED /* VisualizeCard.java */; };
+		230494D71BA6BBF6004FC6ED /* FileSystem.java in Sources */ = {isa = PBXBuildFile; fileRef = 230493B31BA6BBF6004FC6ED /* FileSystem.java */; };
+		230494D81BA6BBF6004FC6ED /* PathUrlMap.java in Sources */ = {isa = PBXBuildFile; fileRef = 230493B41BA6BBF6004FC6ED /* PathUrlMap.java */; };
+		230494D91BA6BBF6004FC6ED /* HalcyonHttpResponseHandle.java in Sources */ = {isa = PBXBuildFile; fileRef = 230493B51BA6BBF6004FC6ED /* HalcyonHttpResponseHandle.java */; };
+		230494DA1BA6BBF6004FC6ED /* HalcyonUploadLooper.java in Sources */ = {isa = PBXBuildFile; fileRef = 230493B61BA6BBF6004FC6ED /* HalcyonUploadLooper.java */; };
+		230494DB1BA6BBF6004FC6ED /* HalyconOnLineHandle.java in Sources */ = {isa = PBXBuildFile; fileRef = 230493B71BA6BBF6004FC6ED /* HalyconOnLineHandle.java */; };
+		230494DC1BA6BBF6004FC6ED /* IOS.java in Sources */ = {isa = PBXBuildFile; fileRef = 230493B81BA6BBF6004FC6ED /* IOS.java */; };
+		230494DD1BA6BBF6004FC6ED /* BaseLogic.java in Sources */ = {isa = PBXBuildFile; fileRef = 230493BA1BA6BBF6004FC6ED /* BaseLogic.java */; };
+		230494DE1BA6BBF6004FC6ED /* ReportChartLogic.java in Sources */ = {isa = PBXBuildFile; fileRef = 230493BC1BA6BBF6004FC6ED /* ReportChartLogic.java */; };
+		230494DF1BA6BBF6004FC6ED /* CheckVersionLogic.java in Sources */ = {isa = PBXBuildFile; fileRef = 230493BD1BA6BBF6004FC6ED /* CheckVersionLogic.java */; };
+		230494E01BA6BBF6004FC6ED /* DoctorAuthLogic.java in Sources */ = {isa = PBXBuildFile; fileRef = 230493BE1BA6BBF6004FC6ED /* DoctorAuthLogic.java */; };
+		230494E11BA6BBF6004FC6ED /* GetImagePathLogic.java in Sources */ = {isa = PBXBuildFile; fileRef = 230493BF1BA6BBF6004FC6ED /* GetImagePathLogic.java */; };
+		230494E21BA6BBF6004FC6ED /* GetProviderLogic.java in Sources */ = {isa = PBXBuildFile; fileRef = 230493C01BA6BBF6004FC6ED /* GetProviderLogic.java */; };
+		230494E31BA6BBF6004FC6ED /* GetUserTotalDataLogic.java in Sources */ = {isa = PBXBuildFile; fileRef = 230493C11BA6BBF6004FC6ED /* GetUserTotalDataLogic.java */; };
+		230494E41BA6BBF6004FC6ED /* LoginLogic.java in Sources */ = {isa = PBXBuildFile; fileRef = 230493C21BA6BBF6004FC6ED /* LoginLogic.java */; };
+		230494E51BA6BBF6004FC6ED /* AddMemberLogic.java in Sources */ = {isa = PBXBuildFile; fileRef = 230493C41BA6BBF6004FC6ED /* AddMemberLogic.java */; };
+		230494E61BA6BBF6004FC6ED /* ChatGroupLogic.java in Sources */ = {isa = PBXBuildFile; fileRef = 230493C51BA6BBF6004FC6ED /* ChatGroupLogic.java */; };
+		230494E71BA6BBF6004FC6ED /* CloudRecognizeLogic.java in Sources */ = {isa = PBXBuildFile; fileRef = 230493C61BA6BBF6004FC6ED /* CloudRecognizeLogic.java */; };
+		230494E81BA6BBF6004FC6ED /* DelGroupChatLogic.java in Sources */ = {isa = PBXBuildFile; fileRef = 230493C71BA6BBF6004FC6ED /* DelGroupChatLogic.java */; };
+		230494E91BA6BBF6004FC6ED /* DelMemberLogic.java in Sources */ = {isa = PBXBuildFile; fileRef = 230493C81BA6BBF6004FC6ED /* DelMemberLogic.java */; };
+		230494EA1BA6BBF6004FC6ED /* GetMemberListLogic.java in Sources */ = {isa = PBXBuildFile; fileRef = 230493C91BA6BBF6004FC6ED /* GetMemberListLogic.java */; };
+		230494EB1BA6BBF6004FC6ED /* PatientNameLogic.java in Sources */ = {isa = PBXBuildFile; fileRef = 230493CA1BA6BBF6004FC6ED /* PatientNameLogic.java */; };
+		230494EC1BA6BBF6004FC6ED /* PatientUpdateListLogic.java in Sources */ = {isa = PBXBuildFile; fileRef = 230493CB1BA6BBF6004FC6ED /* PatientUpdateListLogic.java */; };
+		230494ED1BA6BBF6004FC6ED /* RecognitionLogic.java in Sources */ = {isa = PBXBuildFile; fileRef = 230493CC1BA6BBF6004FC6ED /* RecognitionLogic.java */; };
+		230494EE1BA6BBF6004FC6ED /* RecordListLogic.java in Sources */ = {isa = PBXBuildFile; fileRef = 230493CD1BA6BBF6004FC6ED /* RecordListLogic.java */; };
+		230494EF1BA6BBF6004FC6ED /* RecycleLogic.java in Sources */ = {isa = PBXBuildFile; fileRef = 230493CE1BA6BBF6004FC6ED /* RecycleLogic.java */; };
+		230494F01BA6BBF6004FC6ED /* SearchLogic.java in Sources */ = {isa = PBXBuildFile; fileRef = 230493CF1BA6BBF6004FC6ED /* SearchLogic.java */; };
+		230494F11BA6BBF6004FC6ED /* SendPatientLogic.java in Sources */ = {isa = PBXBuildFile; fileRef = 230493D01BA6BBF6004FC6ED /* SendPatientLogic.java */; };
+		230494F21BA6BBF6004FC6ED /* ShareLogic.java in Sources */ = {isa = PBXBuildFile; fileRef = 230493D11BA6BBF6004FC6ED /* ShareLogic.java */; };
+		230494F31BA6BBF6004FC6ED /* StructuredLogic.java in Sources */ = {isa = PBXBuildFile; fileRef = 230493D21BA6BBF6004FC6ED /* StructuredLogic.java */; };
+		230494F41BA6BBF6004FC6ED /* UpLoadChatImageLogic.java in Sources */ = {isa = PBXBuildFile; fileRef = 230493D31BA6BBF6004FC6ED /* UpLoadChatImageLogic.java */; };
+		230494F51BA6BBF6004FC6ED /* UpLoadChatImageManager.java in Sources */ = {isa = PBXBuildFile; fileRef = 230493D41BA6BBF6004FC6ED /* UpLoadChatImageManager.java */; };
+		230494F61BA6BBF6004FC6ED /* RegisterLogic.java in Sources */ = {isa = PBXBuildFile; fileRef = 230493D51BA6BBF6004FC6ED /* RegisterLogic.java */; };
+		230494F71BA6BBF6004FC6ED /* SaveCDSLogic.java in Sources */ = {isa = PBXBuildFile; fileRef = 230493D61BA6BBF6004FC6ED /* SaveCDSLogic.java */; };
+		230494F81BA6BBF6004FC6ED /* UploadStateLogic.java in Sources */ = {isa = PBXBuildFile; fileRef = 230493D71BA6BBF6004FC6ED /* UploadStateLogic.java */; };
+		230494F91BA6BBF6004FC6ED /* AddOneFollowUpLogic.java in Sources */ = {isa = PBXBuildFile; fileRef = 230493D91BA6BBF6004FC6ED /* AddOneFollowUpLogic.java */; };
+		230494FA1BA6BBF6004FC6ED /* AddOrRefuseFriendLogic.java in Sources */ = {isa = PBXBuildFile; fileRef = 230493DA1BA6BBF6004FC6ED /* AddOrRefuseFriendLogic.java */; };
+		230494FB1BA6BBF6004FC6ED /* AddRecordLogic.java in Sources */ = {isa = PBXBuildFile; fileRef = 230493DB1BA6BBF6004FC6ED /* AddRecordLogic.java */; };
+		230494FC1BA6BBF6004FC6ED /* AlarmClockLogic.java in Sources */ = {isa = PBXBuildFile; fileRef = 230493DC1BA6BBF6004FC6ED /* AlarmClockLogic.java */; };
+		230494FD1BA6BBF6004FC6ED /* AnnualFreeLogic.java in Sources */ = {isa = PBXBuildFile; fileRef = 230493DD1BA6BBF6004FC6ED /* AnnualFreeLogic.java */; };
+		230494FE1BA6BBF6004FC6ED /* BrowsePicLogic.java in Sources */ = {isa = PBXBuildFile; fileRef = 230493DE1BA6BBF6004FC6ED /* BrowsePicLogic.java */; };
+		230494FF1BA6BBF6004FC6ED /* CancleFollowUpLogic.java in Sources */ = {isa = PBXBuildFile; fileRef = 230493DF1BA6BBF6004FC6ED /* CancleFollowUpLogic.java */; };
+		230495001BA6BBF6004FC6ED /* ChangeDPNameLogic.java in Sources */ = {isa = PBXBuildFile; fileRef = 230493E01BA6BBF6004FC6ED /* ChangeDPNameLogic.java */; };
+		230495011BA6BBF6004FC6ED /* ContactLogic.java in Sources */ = {isa = PBXBuildFile; fileRef = 230493E11BA6BBF6004FC6ED /* ContactLogic.java */; };
+		230495021BA6BBF6004FC6ED /* CreatePatientLogic.java in Sources */ = {isa = PBXBuildFile; fileRef = 230493E21BA6BBF6004FC6ED /* CreatePatientLogic.java */; };
+		230495031BA6BBF6004FC6ED /* CreateRecordLogic.java in Sources */ = {isa = PBXBuildFile; fileRef = 230493E31BA6BBF6004FC6ED /* CreateRecordLogic.java */; };
+		230495041BA6BBF6004FC6ED /* DeleteFollowUpTempleLogic.java in Sources */ = {isa = PBXBuildFile; fileRef = 230493E41BA6BBF6004FC6ED /* DeleteFollowUpTempleLogic.java */; };
+		230495051BA6BBF6004FC6ED /* DelPatientLogic.java in Sources */ = {isa = PBXBuildFile; fileRef = 230493E51BA6BBF6004FC6ED /* DelPatientLogic.java */; };
+		230495061BA6BBF6004FC6ED /* DelRecordLogic.java in Sources */ = {isa = PBXBuildFile; fileRef = 230493E61BA6BBF6004FC6ED /* DelRecordLogic.java */; };
+		230495071BA6BBF6004FC6ED /* DoctorAddFriendLogic.java in Sources */ = {isa = PBXBuildFile; fileRef = 230493E71BA6BBF6004FC6ED /* DoctorAddFriendLogic.java */; };
+		230495081BA6BBF6004FC6ED /* DoctorHomeLogic.java in Sources */ = {isa = PBXBuildFile; fileRef = 230493E81BA6BBF6004FC6ED /* DoctorHomeLogic.java */; };
+		230495091BA6BBF6004FC6ED /* EditOneExamItemLogic.java in Sources */ = {isa = PBXBuildFile; fileRef = 230493E91BA6BBF6004FC6ED /* EditOneExamItemLogic.java */; };
+		2304950A1BA6BBF6004FC6ED /* ExpenseDetailLogic.java in Sources */ = {isa = PBXBuildFile; fileRef = 230493EA1BA6BBF6004FC6ED /* ExpenseDetailLogic.java */; };
+		2304950B1BA6BBF6004FC6ED /* FollowUpTempleListLogic.java in Sources */ = {isa = PBXBuildFile; fileRef = 230493EB1BA6BBF6004FC6ED /* FollowUpTempleListLogic.java */; };
+		2304950C1BA6BBF6004FC6ED /* GetAddingFriendsListLogic.java in Sources */ = {isa = PBXBuildFile; fileRef = 230493EC1BA6BBF6004FC6ED /* GetAddingFriendsListLogic.java */; };
+		2304950D1BA6BBF6004FC6ED /* GetExamListLogic.java in Sources */ = {isa = PBXBuildFile; fileRef = 230493ED1BA6BBF6004FC6ED /* GetExamListLogic.java */; };
+		2304950E1BA6BBF6004FC6ED /* GetPatientItemExamLogic.java in Sources */ = {isa = PBXBuildFile; fileRef = 230493EE1BA6BBF6004FC6ED /* GetPatientItemExamLogic.java */; };
+		2304950F1BA6BBF6004FC6ED /* GetPatientListLogic.java in Sources */ = {isa = PBXBuildFile; fileRef = 230493EF1BA6BBF6004FC6ED /* GetPatientListLogic.java */; };
+		230495101BA6BBF6004FC6ED /* GetRecordDetailsLogic.java in Sources */ = {isa = PBXBuildFile; fileRef = 230493F01BA6BBF6004FC6ED /* GetRecordDetailsLogic.java */; };
+		230495111BA6BBF6004FC6ED /* GetRecordInfoByItemLogic.java in Sources */ = {isa = PBXBuildFile; fileRef = 230493F11BA6BBF6004FC6ED /* GetRecordInfoByItemLogic.java */; };
+		230495121BA6BBF6004FC6ED /* GetRecordItemLogic.java in Sources */ = {isa = PBXBuildFile; fileRef = 230493F21BA6BBF6004FC6ED /* GetRecordItemLogic.java */; };
+		230495131BA6BBF6004FC6ED /* GetRecordListLogic.java in Sources */ = {isa = PBXBuildFile; fileRef = 230493F31BA6BBF6004FC6ED /* GetRecordListLogic.java */; };
+		230495141BA6BBF6004FC6ED /* GetRecordTypeListLogic.java in Sources */ = {isa = PBXBuildFile; fileRef = 230493F41BA6BBF6004FC6ED /* GetRecordTypeListLogic.java */; };
+		230495151BA6BBF6004FC6ED /* HomeGetChartDataLogic.java in Sources */ = {isa = PBXBuildFile; fileRef = 230493F51BA6BBF6004FC6ED /* HomeGetChartDataLogic.java */; };
+		230495161BA6BBF6004FC6ED /* HomeMessageLogic.java in Sources */ = {isa = PBXBuildFile; fileRef = 230493F61BA6BBF6004FC6ED /* HomeMessageLogic.java */; };
+		230495171BA6BBF6004FC6ED /* LogicExamCharts.java in Sources */ = {isa = PBXBuildFile; fileRef = 230493F71BA6BBF6004FC6ED /* LogicExamCharts.java */; };
+		230495181BA6BBF6004FC6ED /* ModifyPatientNameLogic.java in Sources */ = {isa = PBXBuildFile; fileRef = 230493F81BA6BBF6004FC6ED /* ModifyPatientNameLogic.java */; };
+		230495191BA6BBF6004FC6ED /* ModifyRecordNameLogic.java in Sources */ = {isa = PBXBuildFile; fileRef = 230493F91BA6BBF6004FC6ED /* ModifyRecordNameLogic.java */; };
+		2304951A1BA6BBF6004FC6ED /* OperateFollowUpTempleLogic.java in Sources */ = {isa = PBXBuildFile; fileRef = 230493FA1BA6BBF6004FC6ED /* OperateFollowUpTempleLogic.java */; };
+		2304951B1BA6BBF6004FC6ED /* PostRemarkLogic.java in Sources */ = {isa = PBXBuildFile; fileRef = 230493FB1BA6BBF6004FC6ED /* PostRemarkLogic.java */; };
+		2304951C1BA6BBF6004FC6ED /* ReadUserInfoLogic.java in Sources */ = {isa = PBXBuildFile; fileRef = 230493FC1BA6BBF6004FC6ED /* ReadUserInfoLogic.java */; };
+		2304951D1BA6BBF6004FC6ED /* RemoveRecordItemLogic.java in Sources */ = {isa = PBXBuildFile; fileRef = 230493FD1BA6BBF6004FC6ED /* RemoveRecordItemLogic.java */; };
+		2304951E1BA6BBF6004FC6ED /* RequestCSDLogic.java in Sources */ = {isa = PBXBuildFile; fileRef = 230493FE1BA6BBF6004FC6ED /* RequestCSDLogic.java */; };
+		2304951F1BA6BBF6004FC6ED /* RequestMedicineLogic.java in Sources */ = {isa = PBXBuildFile; fileRef = 230493FF1BA6BBF6004FC6ED /* RequestMedicineLogic.java */; };
+		230495201BA6BBF6004FC6ED /* ResetDoctorInfoLogic.java in Sources */ = {isa = PBXBuildFile; fileRef = 230494001BA6BBF6004FC6ED /* ResetDoctorInfoLogic.java */; };
+		230495211BA6BBF6004FC6ED /* ResquestIdentfyLogic.java in Sources */ = {isa = PBXBuildFile; fileRef = 230494011BA6BBF6004FC6ED /* ResquestIdentfyLogic.java */; };
+		230495221BA6BBF6004FC6ED /* SearchDepartmentLogic.java in Sources */ = {isa = PBXBuildFile; fileRef = 230494021BA6BBF6004FC6ED /* SearchDepartmentLogic.java */; };
+		230495231BA6BBF6004FC6ED /* SearchFollowUpDetailLogic.java in Sources */ = {isa = PBXBuildFile; fileRef = 230494031BA6BBF6004FC6ED /* SearchFollowUpDetailLogic.java */; };
+		230495241BA6BBF6004FC6ED /* SearchFollowUpTempleDetailLogic.java in Sources */ = {isa = PBXBuildFile; fileRef = 230494041BA6BBF6004FC6ED /* SearchFollowUpTempleDetailLogic.java */; };
+		230495251BA6BBF6004FC6ED /* SearchFriendsLogic.java in Sources */ = {isa = PBXBuildFile; fileRef = 230494051BA6BBF6004FC6ED /* SearchFriendsLogic.java */; };
+		230495261BA6BBF6004FC6ED /* SearchHospitalLogic.java in Sources */ = {isa = PBXBuildFile; fileRef = 230494061BA6BBF6004FC6ED /* SearchHospitalLogic.java */; };
+		230495271BA6BBF6004FC6ED /* SearchPatientDetailLogic.java in Sources */ = {isa = PBXBuildFile; fileRef = 230494071BA6BBF6004FC6ED /* SearchPatientDetailLogic.java */; };
+		230495281BA6BBF6004FC6ED /* SearchPatientLogic.java in Sources */ = {isa = PBXBuildFile; fileRef = 230494081BA6BBF6004FC6ED /* SearchPatientLogic.java */; };
+		230495291BA6BBF6004FC6ED /* SendFollowUpLeaveMessageLogic.java in Sources */ = {isa = PBXBuildFile; fileRef = 230494091BA6BBF6004FC6ED /* SendFollowUpLeaveMessageLogic.java */; };
+		2304952A1BA6BBF6004FC6ED /* SettingLogic.java in Sources */ = {isa = PBXBuildFile; fileRef = 2304940A1BA6BBF6004FC6ED /* SettingLogic.java */; };
+		2304952B1BA6BBF6004FC6ED /* ShareRecordLogic.java in Sources */ = {isa = PBXBuildFile; fileRef = 2304940B1BA6BBF6004FC6ED /* ShareRecordLogic.java */; };
+		2304952C1BA6BBF6004FC6ED /* SurveyPatientLogic.java in Sources */ = {isa = PBXBuildFile; fileRef = 2304940C1BA6BBF6004FC6ED /* SurveyPatientLogic.java */; };
+		2304952D1BA6BBF6004FC6ED /* SurveyRecordLogic.java in Sources */ = {isa = PBXBuildFile; fileRef = 2304940D1BA6BBF6004FC6ED /* SurveyRecordLogic.java */; };
+		2304952E1BA6BBF6004FC6ED /* TagLogic.java in Sources */ = {isa = PBXBuildFile; fileRef = 2304940E1BA6BBF6004FC6ED /* TagLogic.java */; };
+		2304952F1BA6BBF6004FC6ED /* UploadFeedBackLogic.java in Sources */ = {isa = PBXBuildFile; fileRef = 2304940F1BA6BBF6004FC6ED /* UploadFeedBackLogic.java */; };
+		230495301BA6BBF6004FC6ED /* UploadRecordLogic.java in Sources */ = {isa = PBXBuildFile; fileRef = 230494101BA6BBF6004FC6ED /* UploadRecordLogic.java */; };
+		230495311BA6BBF6004FC6ED /* UserInfoManagerLogic.java in Sources */ = {isa = PBXBuildFile; fileRef = 230494111BA6BBF6004FC6ED /* UserInfoManagerLogic.java */; };
+		230495321BA6BBF6004FC6ED /* ViewOCRInfoLogic.java in Sources */ = {isa = PBXBuildFile; fileRef = 230494121BA6BBF6004FC6ED /* ViewOCRInfoLogic.java */; };
+		230495331BA6BBF6004FC6ED /* ViewRemarksLogic.java in Sources */ = {isa = PBXBuildFile; fileRef = 230494131BA6BBF6004FC6ED /* ViewRemarksLogic.java */; };
+		230495341BA6BBF6004FC6ED /* ExamChartTools.java in Sources */ = {isa = PBXBuildFile; fileRef = 230494151BA6BBF6004FC6ED /* ExamChartTools.java */; };
+		230495351BA6BBF6004FC6ED /* PhotosManager.java in Sources */ = {isa = PBXBuildFile; fileRef = 230494161BA6BBF6004FC6ED /* PhotosManager.java */; };
+		230495361BA6BBF6004FC6ED /* ReadHistoryManager.java in Sources */ = {isa = PBXBuildFile; fileRef = 230494171BA6BBF6004FC6ED /* ReadHistoryManager.java */; };
+		230495371BA6BBF6004FC6ED /* SearchHistoryManager.java in Sources */ = {isa = PBXBuildFile; fileRef = 230494181BA6BBF6004FC6ED /* SearchHistoryManager.java */; };
+		230495381BA6BBF6004FC6ED /* Trash.java in Sources */ = {isa = PBXBuildFile; fileRef = 230494191BA6BBF6004FC6ED /* Trash.java */; };
+		230495391BA6BBF6004FC6ED /* SequenceHandel.java in Sources */ = {isa = PBXBuildFile; fileRef = 2304941A1BA6BBF6004FC6ED /* SequenceHandel.java */; };
+		2304953A1BA6BBF6004FC6ED /* BrowseRecord.java in Sources */ = {isa = PBXBuildFile; fileRef = 2304941C1BA6BBF6004FC6ED /* BrowseRecord.java */; };
+		2304953B1BA6BBF6004FC6ED /* ChangePasswordUILogic.java in Sources */ = {isa = PBXBuildFile; fileRef = 2304941D1BA6BBF6004FC6ED /* ChangePasswordUILogic.java */; };
+		2304953C1BA6BBF6004FC6ED /* ChangePhoneUILogic.java in Sources */ = {isa = PBXBuildFile; fileRef = 2304941E1BA6BBF6004FC6ED /* ChangePhoneUILogic.java */; };
+		2304953D1BA6BBF6004FC6ED /* ChartModel.java in Sources */ = {isa = PBXBuildFile; fileRef = 2304941F1BA6BBF6004FC6ED /* ChartModel.java */; };
+		2304953E1BA6BBF6004FC6ED /* PersonInfoUILogic.java in Sources */ = {isa = PBXBuildFile; fileRef = 230494201BA6BBF6004FC6ED /* PersonInfoUILogic.java */; };
+		2304953F1BA6BBF6004FC6ED /* RecordDTExamLogic.java in Sources */ = {isa = PBXBuildFile; fileRef = 230494211BA6BBF6004FC6ED /* RecordDTExamLogic.java */; };
+		230495401BA6BBF6004FC6ED /* RecordDTLogic.java in Sources */ = {isa = PBXBuildFile; fileRef = 230494221BA6BBF6004FC6ED /* RecordDTLogic.java */; };
+		230495411BA6BBF6004FC6ED /* RecordDTNormalLogic.java in Sources */ = {isa = PBXBuildFile; fileRef = 230494231BA6BBF6004FC6ED /* RecordDTNormalLogic.java */; };
+		230495421BA6BBF6004FC6ED /* RegisterUILogic.java in Sources */ = {isa = PBXBuildFile; fileRef = 230494241BA6BBF6004FC6ED /* RegisterUILogic.java */; };
+		230495431BA6BBF6004FC6ED /* ReportDocumentUILogic.java in Sources */ = {isa = PBXBuildFile; fileRef = 230494251BA6BBF6004FC6ED /* ReportDocumentUILogic.java */; };
+		230495441BA6BBF6004FC6ED /* SaveInfoUILogic.java in Sources */ = {isa = PBXBuildFile; fileRef = 230494261BA6BBF6004FC6ED /* SaveInfoUILogic.java */; };
+		230495451BA6BBF6004FC6ED /* TagUtils.java in Sources */ = {isa = PBXBuildFile; fileRef = 230494271BA6BBF6004FC6ED /* TagUtils.java */; };
+		230495461BA6BBF6004FC6ED /* UIAuthLogic.java in Sources */ = {isa = PBXBuildFile; fileRef = 230494281BA6BBF6004FC6ED /* UIAuthLogic.java */; };
+		230495471BA6BBF6004FC6ED /* UILoginLogic.java in Sources */ = {isa = PBXBuildFile; fileRef = 230494291BA6BBF6004FC6ED /* UILoginLogic.java */; };
+		230495481BA6BBF6004FC6ED /* OneCopy.java in Sources */ = {isa = PBXBuildFile; fileRef = 2304942B1BA6BBF6004FC6ED /* OneCopy.java */; };
+		230495491BA6BBF6004FC6ED /* OneType.java in Sources */ = {isa = PBXBuildFile; fileRef = 2304942C1BA6BBF6004FC6ED /* OneType.java */; };
+		2304954A1BA6BBF6004FC6ED /* FQHeader.java in Sources */ = {isa = PBXBuildFile; fileRef = 2304942F1BA6BBF6004FC6ED /* FQHeader.java */; };
+		2304954C1BA6BBF6004FC6ED /* ParamsWrapper.java in Sources */ = {isa = PBXBuildFile; fileRef = 230494311BA6BBF6004FC6ED /* ParamsWrapper.java */; };
+		2304954E1BA6BBF6004FC6ED /* FQLoopQueue.java in Sources */ = {isa = PBXBuildFile; fileRef = 230494341BA6BBF6004FC6ED /* FQLoopQueue.java */; };
+		2304954F1BA6BBF6004FC6ED /* LoopCell.java in Sources */ = {isa = PBXBuildFile; fileRef = 230494351BA6BBF6004FC6ED /* LoopCell.java */; };
+		230495501BA6BBF6004FC6ED /* LoopCellHandle.java in Sources */ = {isa = PBXBuildFile; fileRef = 230494361BA6BBF6004FC6ED /* LoopCellHandle.java */; };
+		230495511BA6BBF6004FC6ED /* LoopUpLoadCell.java in Sources */ = {isa = PBXBuildFile; fileRef = 230494371BA6BBF6004FC6ED /* LoopUpLoadCell.java */; };
+		230495521BA6BBF6004FC6ED /* onHandlerCompleteListener.java in Sources */ = {isa = PBXBuildFile; fileRef = 230494381BA6BBF6004FC6ED /* onHandlerCompleteListener.java */; };
+		230495531BA6BBF6004FC6ED /* FQBinaryResponseHandle.java in Sources */ = {isa = PBXBuildFile; fileRef = 2304943A1BA6BBF6004FC6ED /* FQBinaryResponseHandle.java */; };
+		230495541BA6BBF6004FC6ED /* FQHttpResponseHandle.java in Sources */ = {isa = PBXBuildFile; fileRef = 2304943B1BA6BBF6004FC6ED /* FQHttpResponseHandle.java */; };
+		230495551BA6BBF6004FC6ED /* FQHttpResponseInterface.java in Sources */ = {isa = PBXBuildFile; fileRef = 2304943C1BA6BBF6004FC6ED /* FQHttpResponseInterface.java */; };
+		230495561BA6BBF6004FC6ED /* FQJsonResponseHandle.java in Sources */ = {isa = PBXBuildFile; fileRef = 2304943D1BA6BBF6004FC6ED /* FQJsonResponseHandle.java */; };
+		230495571BA6BBF6004FC6ED /* FQStringResponseHandle.java in Sources */ = {isa = PBXBuildFile; fileRef = 2304943E1BA6BBF6004FC6ED /* FQStringResponseHandle.java */; };
+		230495581BA6BBF6004FC6ED /* HttpClientPotocol.java in Sources */ = {isa = PBXBuildFile; fileRef = 2304943F1BA6BBF6004FC6ED /* HttpClientPotocol.java */; };
+		230495591BA6BBF6004FC6ED /* HttpParamPotocol.java in Sources */ = {isa = PBXBuildFile; fileRef = 230494401BA6BBF6004FC6ED /* HttpParamPotocol.java */; };
+		2304955A1BA6BBF6004FC6ED /* HttpRequestPotocol.java in Sources */ = {isa = PBXBuildFile; fileRef = 230494411BA6BBF6004FC6ED /* HttpRequestPotocol.java */; };
+		2304955B1BA6BBF6004FC6ED /* PracticeResponseHandle.java in Sources */ = {isa = PBXBuildFile; fileRef = 230494421BA6BBF6004FC6ED /* PracticeResponseHandle.java */; };
+		2304955C1BA6BBF6004FC6ED /* ICallback.java in Sources */ = {isa = PBXBuildFile; fileRef = 230494451BA6BBF6004FC6ED /* ICallback.java */; };
+		2304955D1BA6BBF6004FC6ED /* ChinesetSortHelper.java in Sources */ = {isa = PBXBuildFile; fileRef = 230494461BA6BBF6004FC6ED /* ChinesetSortHelper.java */; };
+		2304955E1BA6BBF6004FC6ED /* FileHelper.java in Sources */ = {isa = PBXBuildFile; fileRef = 230494471BA6BBF6004FC6ED /* FileHelper.java */; };
+		2304955F1BA6BBF6004FC6ED /* HttpHelper.java in Sources */ = {isa = PBXBuildFile; fileRef = 230494481BA6BBF6004FC6ED /* HttpHelper.java */; };
+		230495601BA6BBF6004FC6ED /* IOHelper.java in Sources */ = {isa = PBXBuildFile; fileRef = 230494491BA6BBF6004FC6ED /* IOHelper.java */; };
+		230495611BA6BBF6004FC6ED /* JSON.java in Sources */ = {isa = PBXBuildFile; fileRef = 2304944B1BA6BBF6004FC6ED /* JSON.java */; };
+		230495621BA6BBF6004FC6ED /* JSONArray.java in Sources */ = {isa = PBXBuildFile; fileRef = 2304944C1BA6BBF6004FC6ED /* JSONArray.java */; };
+		230495631BA6BBF6004FC6ED /* JSONException.java in Sources */ = {isa = PBXBuildFile; fileRef = 2304944D1BA6BBF6004FC6ED /* JSONException.java */; };
+		230495641BA6BBF6004FC6ED /* JSONObject.java in Sources */ = {isa = PBXBuildFile; fileRef = 2304944E1BA6BBF6004FC6ED /* JSONObject.java */; };
+		230495651BA6BBF6004FC6ED /* JSONStringer.java in Sources */ = {isa = PBXBuildFile; fileRef = 2304944F1BA6BBF6004FC6ED /* JSONStringer.java */; };
+		230495661BA6BBF6004FC6ED /* JSONTokener.java in Sources */ = {isa = PBXBuildFile; fileRef = 230494501BA6BBF6004FC6ED /* JSONTokener.java */; };
+		230495671BA6BBF6004FC6ED /* JsonHelper.java in Sources */ = {isa = PBXBuildFile; fileRef = 230494511BA6BBF6004FC6ED /* JsonHelper.java */; };
+		230495681BA6BBF6004FC6ED /* BadHanyuPinyinOutputFormatCombination.java in Sources */ = {isa = PBXBuildFile; fileRef = 230494531BA6BBF6004FC6ED /* BadHanyuPinyinOutputFormatCombination.java */; };
+		230495691BA6BBF6004FC6ED /* ChineseToPinyinResource.java in Sources */ = {isa = PBXBuildFile; fileRef = 230494541BA6BBF6004FC6ED /* ChineseToPinyinResource.java */; };
+		2304956A1BA6BBF6004FC6ED /* GwoyeuRomatzyhResource.java in Sources */ = {isa = PBXBuildFile; fileRef = 230494551BA6BBF6004FC6ED /* GwoyeuRomatzyhResource.java */; };
+		2304956B1BA6BBF6004FC6ED /* GwoyeuRomatzyhTranslator.java in Sources */ = {isa = PBXBuildFile; fileRef = 230494561BA6BBF6004FC6ED /* GwoyeuRomatzyhTranslator.java */; };
+		2304956C1BA6BBF6004FC6ED /* HanyuPinyinCaseType.java in Sources */ = {isa = PBXBuildFile; fileRef = 230494571BA6BBF6004FC6ED /* HanyuPinyinCaseType.java */; };
+		2304956D1BA6BBF6004FC6ED /* HanyuPinyinOutputFormat.java in Sources */ = {isa = PBXBuildFile; fileRef = 230494581BA6BBF6004FC6ED /* HanyuPinyinOutputFormat.java */; };
+		2304956E1BA6BBF6004FC6ED /* HanyuPinyinToneType.java in Sources */ = {isa = PBXBuildFile; fileRef = 230494591BA6BBF6004FC6ED /* HanyuPinyinToneType.java */; };
+		2304956F1BA6BBF6004FC6ED /* HanyuPinyinVCharType.java in Sources */ = {isa = PBXBuildFile; fileRef = 2304945A1BA6BBF6004FC6ED /* HanyuPinyinVCharType.java */; };
+		230495701BA6BBF6004FC6ED /* PinyinFormatter.java in Sources */ = {isa = PBXBuildFile; fileRef = 2304945B1BA6BBF6004FC6ED /* PinyinFormatter.java */; };
+		230495711BA6BBF6004FC6ED /* PinyinHelper.java in Sources */ = {isa = PBXBuildFile; fileRef = 2304945C1BA6BBF6004FC6ED /* PinyinHelper.java */; };
+		230495721BA6BBF6004FC6ED /* PinyinRomanizationResource.java in Sources */ = {isa = PBXBuildFile; fileRef = 2304945D1BA6BBF6004FC6ED /* PinyinRomanizationResource.java */; };
+		230495731BA6BBF6004FC6ED /* PinyinRomanizationTranslator.java in Sources */ = {isa = PBXBuildFile; fileRef = 2304945E1BA6BBF6004FC6ED /* PinyinRomanizationTranslator.java */; };
+		230495741BA6BBF6004FC6ED /* PinyinRomanizationType.java in Sources */ = {isa = PBXBuildFile; fileRef = 2304945F1BA6BBF6004FC6ED /* PinyinRomanizationType.java */; };
+		230495751BA6BBF6004FC6ED /* ResourceHelper.java in Sources */ = {isa = PBXBuildFile; fileRef = 230494601BA6BBF6004FC6ED /* ResourceHelper.java */; };
+		230495761BA6BBF6004FC6ED /* TextHelper.java in Sources */ = {isa = PBXBuildFile; fileRef = 230494611BA6BBF6004FC6ED /* TextHelper.java */; };
+		230495771BA6BBF6004FC6ED /* DES3Utils.java in Sources */ = {isa = PBXBuildFile; fileRef = 230494641BA6BBF6004FC6ED /* DES3Utils.java */; };
+		230495781BA6BBF6004FC6ED /* HMACSHA1.java in Sources */ = {isa = PBXBuildFile; fileRef = 230494651BA6BBF6004FC6ED /* HMACSHA1.java */; };
+		230495791BA6BBF6004FC6ED /* Platform.java in Sources */ = {isa = PBXBuildFile; fileRef = 230494661BA6BBF6004FC6ED /* Platform.java */; };
+		2304957A1BA6BBF6004FC6ED /* RecordCache.java in Sources */ = {isa = PBXBuildFile; fileRef = 230494681BA6BBF6004FC6ED /* RecordCache.java */; };
+		2304957B1BA6BBF6004FC6ED /* RecordConstants.java in Sources */ = {isa = PBXBuildFile; fileRef = 230494691BA6BBF6004FC6ED /* RecordConstants.java */; };
+		2304957C1BA6BBF6004FC6ED /* RecordTool.java in Sources */ = {isa = PBXBuildFile; fileRef = 2304946A1BA6BBF6004FC6ED /* RecordTool.java */; };
+		2304957D1BA6BBF6004FC6ED /* RecordUploadNotify.java in Sources */ = {isa = PBXBuildFile; fileRef = 2304946B1BA6BBF6004FC6ED /* RecordUploadNotify.java */; };
+		2304957E1BA6BBF6004FC6ED /* SnapPhotoManager.java in Sources */ = {isa = PBXBuildFile; fileRef = 2304946C1BA6BBF6004FC6ED /* SnapPhotoManager.java */; };
+		2304957F1BA6BBF6004FC6ED /* AeSimpleSHA1.java in Sources */ = {isa = PBXBuildFile; fileRef = 2304946E1BA6BBF6004FC6ED /* AeSimpleSHA1.java */; };
+		230495801BA6BBF6004FC6ED /* BaiduAnalysis.java in Sources */ = {isa = PBXBuildFile; fileRef = 2304946F1BA6BBF6004FC6ED /* BaiduAnalysis.java */; };
+		230495811BA6BBF6004FC6ED /* Base64Util.java in Sources */ = {isa = PBXBuildFile; fileRef = 230494701BA6BBF6004FC6ED /* Base64Util.java */; };
+		230495821BA6BBF6004FC6ED /* CareConstants.java in Sources */ = {isa = PBXBuildFile; fileRef = 230494711BA6BBF6004FC6ED /* CareConstants.java */; };
+		230495831BA6BBF6004FC6ED /* Constants.java in Sources */ = {isa = PBXBuildFile; fileRef = 230494721BA6BBF6004FC6ED /* Constants.java */; };
+		230495841BA6BBF6004FC6ED /* Data.java in Sources */ = {isa = PBXBuildFile; fileRef = 230494731BA6BBF6004FC6ED /* Data.java */; };
+		230495851BA6BBF6004FC6ED /* Encryption.java in Sources */ = {isa = PBXBuildFile; fileRef = 230494741BA6BBF6004FC6ED /* Encryption.java */; };
+		230495861BA6BBF6004FC6ED /* FQLog.java in Sources */ = {isa = PBXBuildFile; fileRef = 230494751BA6BBF6004FC6ED /* FQLog.java */; };
+		230495871BA6BBF6004FC6ED /* FQRemoteDebugTool.java in Sources */ = {isa = PBXBuildFile; fileRef = 230494761BA6BBF6004FC6ED /* FQRemoteDebugTool.java */; };
+		230495881BA6BBF6004FC6ED /* MD5.java in Sources */ = {isa = PBXBuildFile; fileRef = 230494771BA6BBF6004FC6ED /* MD5.java */; };
+		230495891BA6BBF6004FC6ED /* SettingFollowUpManager.java in Sources */ = {isa = PBXBuildFile; fileRef = 230494781BA6BBF6004FC6ED /* SettingFollowUpManager.java */; };
+		2304958A1BA6BBF6004FC6ED /* SHA1.java in Sources */ = {isa = PBXBuildFile; fileRef = 230494791BA6BBF6004FC6ED /* SHA1.java */; };
+		2304958B1BA6BBF6004FC6ED /* StrDataComparator.java in Sources */ = {isa = PBXBuildFile; fileRef = 2304947A1BA6BBF6004FC6ED /* StrDataComparator.java */; };
+		2304958C1BA6BBF6004FC6ED /* TimeFormatUtils.java in Sources */ = {isa = PBXBuildFile; fileRef = 2304947B1BA6BBF6004FC6ED /* TimeFormatUtils.java */; };
+		2304958D1BA6BBF6004FC6ED /* Tool.java in Sources */ = {isa = PBXBuildFile; fileRef = 2304947C1BA6BBF6004FC6ED /* Tool.java */; };
+		2304958E1BA6BBF6004FC6ED /* UriConstants.java in Sources */ = {isa = PBXBuildFile; fileRef = 2304947D1BA6BBF6004FC6ED /* UriConstants.java */; };
+		2304958F1BA6BBF6004FC6ED /* UserProfileManager.java in Sources */ = {isa = PBXBuildFile; fileRef = 2304947E1BA6BBF6004FC6ED /* UserProfileManager.java */; };
+		230495901BA6BBF6004FC6ED /* UploadImageHelper.java in Sources */ = {isa = PBXBuildFile; fileRef = 2304947F1BA6BBF6004FC6ED /* UploadImageHelper.java */; };
+		230495911BA6BBF6004FC6ED /* UserActionManger.java in Sources */ = {isa = PBXBuildFile; fileRef = 230494801BA6BBF6004FC6ED /* UserActionManger.java */; };
+		9E0082BF1AFA1BAC005428AB /* DES3Utils_IOS.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E00827E1AFA1BAC005428AB /* DES3Utils_IOS.m */; };
+		9E0082C01AFA1BAC005428AB /* FQSecuritySession_IOS.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E0082801AFA1BAC005428AB /* FQSecuritySession_IOS.m */; };
+		9E0082C11AFA1BAC005428AB /* GTMBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E0082821AFA1BAC005428AB /* GTMBase64.m */; };
+		9E0082C21AFA1BAC005428AB /* HMACSHA1_IOS.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E0082851AFA1BAC005428AB /* HMACSHA1_IOS.m */; };
+		9E0082C31AFA1BAC005428AB /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E0082891AFA1BAC005428AB /* AFHTTPRequestOperation.m */; };
+		9E0082C41AFA1BAC005428AB /* AFHTTPRequestOperationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E00828B1AFA1BAC005428AB /* AFHTTPRequestOperationManager.m */; };
+		9E0082C51AFA1BAC005428AB /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E00828D1AFA1BAC005428AB /* AFHTTPSessionManager.m */; };
+		9E0082C61AFA1BAC005428AB /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E0082901AFA1BAC005428AB /* AFNetworkReachabilityManager.m */; };
+		9E0082C71AFA1BAC005428AB /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E0082921AFA1BAC005428AB /* AFSecurityPolicy.m */; };
+		9E0082C81AFA1BAC005428AB /* AFURLConnectionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E0082941AFA1BAC005428AB /* AFURLConnectionOperation.m */; };
+		9E0082C91AFA1BAC005428AB /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E0082961AFA1BAC005428AB /* AFURLRequestSerialization.m */; };
+		9E0082CA1AFA1BAC005428AB /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E0082981AFA1BAC005428AB /* AFURLResponseSerialization.m */; };
+		9E0082CB1AFA1BAC005428AB /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E00829A1AFA1BAC005428AB /* AFURLSessionManager.m */; };
+		9E0082CC1AFA1BAC005428AB /* HttpClient_IOS.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E00829C1AFA1BAC005428AB /* HttpClient_IOS.m */; };
+		9E0082CD1AFA1BAC005428AB /* HttpResponseHandle.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E00829E1AFA1BAC005428AB /* HttpResponseHandle.m */; };
+		9E0082CE1AFA1BAC005428AB /* AFNetworkActivityIndicatorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E0082A11AFA1BAC005428AB /* AFNetworkActivityIndicatorManager.m */; };
+		9E0082CF1AFA1BAC005428AB /* UIActivityIndicatorView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E0082A31AFA1BAC005428AB /* UIActivityIndicatorView+AFNetworking.m */; };
+		9E0082D01AFA1BAC005428AB /* UIAlertView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E0082A51AFA1BAC005428AB /* UIAlertView+AFNetworking.m */; };
+		9E0082D11AFA1BAC005428AB /* UIButton+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E0082A71AFA1BAC005428AB /* UIButton+AFNetworking.m */; };
+		9E0082D21AFA1BAC005428AB /* UIImageView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E0082A91AFA1BAC005428AB /* UIImageView+AFNetworking.m */; };
+		9E0082D31AFA1BAC005428AB /* UIProgressView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E0082AC1AFA1BAC005428AB /* UIProgressView+AFNetworking.m */; };
+		9E0082D41AFA1BAC005428AB /* UIRefreshControl+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E0082AE1AFA1BAC005428AB /* UIRefreshControl+AFNetworking.m */; };
+		9E0082D51AFA1BAC005428AB /* UIWebView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E0082B01AFA1BAC005428AB /* UIWebView+AFNetworking.m */; };
+		9E0082D71AFA1BAC005428AB /* FQHttpParams.java in Sources */ = {isa = PBXBuildFile; fileRef = 9E0082B81AFA1BAC005428AB /* FQHttpParams.java */; };
+		9E0082D81AFA1BAC005428AB /* FQLooper.java in Sources */ = {isa = PBXBuildFile; fileRef = 9E0082BA1AFA1BAC005428AB /* FQLooper.java */; };
+		9E0082D91AFA1BAC005428AB /* RequestParams.java in Sources */ = {isa = PBXBuildFile; fileRef = 9E0082BE1AFA1BAC005428AB /* RequestParams.java */; };
+		9E606AF11B6276F800C55C98 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E606AF01B6276F800C55C98 /* Reachability.m */; };
+		9EE51CF31B69F4C5007E6361 /* Platform_IOS.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EE51CF21B69F4C5007E6361 /* Platform_IOS.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildRule section */
+		9E0082DA1AFA1BE5005428AB /* PBXBuildRule */ = {
+			isa = PBXBuildRule;
+			compilerSpec = com.apple.compilers.proxy.script;
+			fileType = sourcecode.java;
+			isEditable = 1;
+			outputFiles = (
+				"${PROJECT_DIR}/../Jout/${INPUT_FILE_BASE}.h",
+				"${PROJECT_DIR}/../Jout/${INPUT_FILE_BASE}.m",
+			);
+			script = "#echo \"${J2OBJC_HOME}/j2objc\"\nif [ ! -f \"${J2OBJC_HOME}/j2objc\" ]; then echo \"J2OBJC_HOME not correctly defined in Settings.xcconfig\"; exit 1; fi;\n\"${J2OBJC_HOME}/j2objc\"  -use-arc -d ${PROJECT_DIR}/../Jout -sourcepath \"${PROJECT_DIR}/../../CareLogic/src\" --no-package-directories --prefix com.fq.lib.json=FQ -g ${INPUT_FILE_PATH};";
+		};
+/* End PBXBuildRule section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		9E00825F1AFA1AD9005428AB /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		230493761BA6BBF6004FC6ED /* ApiSystem.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = ApiSystem.java; sourceTree = "<group>"; };
+		230493781BA6BBF6004FC6ED /* AlarmClock.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = AlarmClock.java; sourceTree = "<group>"; };
+		2304937A1BA6BBF6004FC6ED /* MedicalItem.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = MedicalItem.java; sourceTree = "<group>"; };
+		2304937B1BA6BBF6004FC6ED /* MedicalReport.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = MedicalReport.java; sourceTree = "<group>"; };
+		2304937C1BA6BBF6004FC6ED /* CertificationStatus.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = CertificationStatus.java; sourceTree = "<group>"; };
+		2304937D1BA6BBF6004FC6ED /* ChartEntity.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = ChartEntity.java; sourceTree = "<group>"; };
+		2304937E1BA6BBF6004FC6ED /* ChatUserInfo.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = ChatUserInfo.java; sourceTree = "<group>"; };
+		2304937F1BA6BBF6004FC6ED /* City.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = City.java; sourceTree = "<group>"; };
+		230493801BA6BBF6004FC6ED /* Contacts.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = Contacts.java; sourceTree = "<group>"; };
+		230493811BA6BBF6004FC6ED /* Department.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = Department.java; sourceTree = "<group>"; };
+		230493821BA6BBF6004FC6ED /* Doctor.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = Doctor.java; sourceTree = "<group>"; };
+		230493831BA6BBF6004FC6ED /* Exam.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = Exam.java; sourceTree = "<group>"; };
+		230493841BA6BBF6004FC6ED /* FollowUp.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = FollowUp.java; sourceTree = "<group>"; };
+		230493851BA6BBF6004FC6ED /* FollowUpTemple.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = FollowUpTemple.java; sourceTree = "<group>"; };
+		230493861BA6BBF6004FC6ED /* HalcyonEntity.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = HalcyonEntity.java; sourceTree = "<group>"; };
+		230493871BA6BBF6004FC6ED /* HomeData.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = HomeData.java; sourceTree = "<group>"; };
+		230493881BA6BBF6004FC6ED /* HomeOneDayData.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = HomeOneDayData.java; sourceTree = "<group>"; };
+		230493891BA6BBF6004FC6ED /* Hospital.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = Hospital.java; sourceTree = "<group>"; };
+		2304938A1BA6BBF6004FC6ED /* ItemExam.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = ItemExam.java; sourceTree = "<group>"; };
+		2304938B1BA6BBF6004FC6ED /* LeaveMessage.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = LeaveMessage.java; sourceTree = "<group>"; };
+		2304938C1BA6BBF6004FC6ED /* Medicine.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = Medicine.java; sourceTree = "<group>"; };
+		2304938D1BA6BBF6004FC6ED /* OnceFollowUpCycle.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = OnceFollowUpCycle.java; sourceTree = "<group>"; };
+		2304938E1BA6BBF6004FC6ED /* Patient.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = Patient.java; sourceTree = "<group>"; };
+		2304938F1BA6BBF6004FC6ED /* PatientFriend.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = PatientFriend.java; sourceTree = "<group>"; };
+		230493901BA6BBF6004FC6ED /* Person.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = Person.java; sourceTree = "<group>"; };
+		230493911BA6BBF6004FC6ED /* Photo.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = Photo.java; sourceTree = "<group>"; };
+		230493921BA6BBF6004FC6ED /* PhotoRecord.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = PhotoRecord.java; sourceTree = "<group>"; };
+		230493941BA6BBF6004FC6ED /* MyRelationship.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = MyRelationship.java; sourceTree = "<group>"; };
+		230493951BA6BBF6004FC6ED /* PatientAbstract.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = PatientAbstract.java; sourceTree = "<group>"; };
+		230493961BA6BBF6004FC6ED /* PatientRecommendName.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = PatientRecommendName.java; sourceTree = "<group>"; };
+		230493971BA6BBF6004FC6ED /* RecordAbstract.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = RecordAbstract.java; sourceTree = "<group>"; };
+		230493981BA6BBF6004FC6ED /* RecordData.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = RecordData.java; sourceTree = "<group>"; };
+		230493991BA6BBF6004FC6ED /* SearchFilter.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = SearchFilter.java; sourceTree = "<group>"; };
+		2304939A1BA6BBF6004FC6ED /* SearchParams.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = SearchParams.java; sourceTree = "<group>"; };
+		2304939B1BA6BBF6004FC6ED /* StandardExamRecord.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = StandardExamRecord.java; sourceTree = "<group>"; };
+		2304939C1BA6BBF6004FC6ED /* Record.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = Record.java; sourceTree = "<group>"; };
+		2304939D1BA6BBF6004FC6ED /* RecordExams.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = RecordExams.java; sourceTree = "<group>"; };
+		2304939E1BA6BBF6004FC6ED /* RecordInfo.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = RecordInfo.java; sourceTree = "<group>"; };
+		2304939F1BA6BBF6004FC6ED /* RecordItem.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = RecordItem.java; sourceTree = "<group>"; };
+		230493A01BA6BBF6004FC6ED /* RecordItemSamp.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = RecordItemSamp.java; sourceTree = "<group>"; };
+		230493A11BA6BBF6004FC6ED /* RecordType.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = RecordType.java; sourceTree = "<group>"; };
+		230493A21BA6BBF6004FC6ED /* Remark.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = Remark.java; sourceTree = "<group>"; };
+		230493A31BA6BBF6004FC6ED /* ScoreDetail.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = ScoreDetail.java; sourceTree = "<group>"; };
+		230493A41BA6BBF6004FC6ED /* SurveyPatientItem.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = SurveyPatientItem.java; sourceTree = "<group>"; };
+		230493A51BA6BBF6004FC6ED /* SurveyRecordItem.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = SurveyRecordItem.java; sourceTree = "<group>"; };
+		230493A61BA6BBF6004FC6ED /* Tag.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = Tag.java; sourceTree = "<group>"; };
+		230493A71BA6BBF6004FC6ED /* Timer.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = Timer.java; sourceTree = "<group>"; };
+		230493A81BA6BBF6004FC6ED /* TimerMember.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = TimerMember.java; sourceTree = "<group>"; };
+		230493A91BA6BBF6004FC6ED /* User.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = User.java; sourceTree = "<group>"; };
+		230493AA1BA6BBF6004FC6ED /* UserAction.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = UserAction.java; sourceTree = "<group>"; };
+		230493AB1BA6BBF6004FC6ED /* Version.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = Version.java; sourceTree = "<group>"; };
+		230493AD1BA6BBF6004FC6ED /* VisualData.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = VisualData.java; sourceTree = "<group>"; };
+		230493AE1BA6BBF6004FC6ED /* VisualizeEntity.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = VisualizeEntity.java; sourceTree = "<group>"; };
+		230493AF1BA6BBF6004FC6ED /* VisualMap.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = VisualMap.java; sourceTree = "<group>"; };
+		230493B01BA6BBF6004FC6ED /* VisualizeCard.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = VisualizeCard.java; sourceTree = "<group>"; };
+		230493B31BA6BBF6004FC6ED /* FileSystem.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = FileSystem.java; sourceTree = "<group>"; };
+		230493B41BA6BBF6004FC6ED /* PathUrlMap.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = PathUrlMap.java; sourceTree = "<group>"; };
+		230493B51BA6BBF6004FC6ED /* HalcyonHttpResponseHandle.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = HalcyonHttpResponseHandle.java; sourceTree = "<group>"; };
+		230493B61BA6BBF6004FC6ED /* HalcyonUploadLooper.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = HalcyonUploadLooper.java; sourceTree = "<group>"; };
+		230493B71BA6BBF6004FC6ED /* HalyconOnLineHandle.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = HalyconOnLineHandle.java; sourceTree = "<group>"; };
+		230493B81BA6BBF6004FC6ED /* IOS.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = IOS.java; sourceTree = "<group>"; };
+		230493BA1BA6BBF6004FC6ED /* BaseLogic.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = BaseLogic.java; sourceTree = "<group>"; };
+		230493BC1BA6BBF6004FC6ED /* ReportChartLogic.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = ReportChartLogic.java; sourceTree = "<group>"; };
+		230493BD1BA6BBF6004FC6ED /* CheckVersionLogic.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = CheckVersionLogic.java; sourceTree = "<group>"; };
+		230493BE1BA6BBF6004FC6ED /* DoctorAuthLogic.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = DoctorAuthLogic.java; sourceTree = "<group>"; };
+		230493BF1BA6BBF6004FC6ED /* GetImagePathLogic.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = GetImagePathLogic.java; sourceTree = "<group>"; };
+		230493C01BA6BBF6004FC6ED /* GetProviderLogic.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = GetProviderLogic.java; sourceTree = "<group>"; };
+		230493C11BA6BBF6004FC6ED /* GetUserTotalDataLogic.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = GetUserTotalDataLogic.java; sourceTree = "<group>"; };
+		230493C21BA6BBF6004FC6ED /* LoginLogic.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = LoginLogic.java; sourceTree = "<group>"; };
+		230493C41BA6BBF6004FC6ED /* AddMemberLogic.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = AddMemberLogic.java; sourceTree = "<group>"; };
+		230493C51BA6BBF6004FC6ED /* ChatGroupLogic.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = ChatGroupLogic.java; sourceTree = "<group>"; };
+		230493C61BA6BBF6004FC6ED /* CloudRecognizeLogic.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = CloudRecognizeLogic.java; sourceTree = "<group>"; };
+		230493C71BA6BBF6004FC6ED /* DelGroupChatLogic.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = DelGroupChatLogic.java; sourceTree = "<group>"; };
+		230493C81BA6BBF6004FC6ED /* DelMemberLogic.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = DelMemberLogic.java; sourceTree = "<group>"; };
+		230493C91BA6BBF6004FC6ED /* GetMemberListLogic.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = GetMemberListLogic.java; sourceTree = "<group>"; };
+		230493CA1BA6BBF6004FC6ED /* PatientNameLogic.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = PatientNameLogic.java; sourceTree = "<group>"; };
+		230493CB1BA6BBF6004FC6ED /* PatientUpdateListLogic.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = PatientUpdateListLogic.java; sourceTree = "<group>"; };
+		230493CC1BA6BBF6004FC6ED /* RecognitionLogic.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = RecognitionLogic.java; sourceTree = "<group>"; };
+		230493CD1BA6BBF6004FC6ED /* RecordListLogic.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = RecordListLogic.java; sourceTree = "<group>"; };
+		230493CE1BA6BBF6004FC6ED /* RecycleLogic.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = RecycleLogic.java; sourceTree = "<group>"; };
+		230493CF1BA6BBF6004FC6ED /* SearchLogic.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = SearchLogic.java; sourceTree = "<group>"; };
+		230493D01BA6BBF6004FC6ED /* SendPatientLogic.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = SendPatientLogic.java; sourceTree = "<group>"; };
+		230493D11BA6BBF6004FC6ED /* ShareLogic.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = ShareLogic.java; sourceTree = "<group>"; };
+		230493D21BA6BBF6004FC6ED /* StructuredLogic.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = StructuredLogic.java; sourceTree = "<group>"; };
+		230493D31BA6BBF6004FC6ED /* UpLoadChatImageLogic.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = UpLoadChatImageLogic.java; sourceTree = "<group>"; };
+		230493D41BA6BBF6004FC6ED /* UpLoadChatImageManager.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = UpLoadChatImageManager.java; sourceTree = "<group>"; };
+		230493D51BA6BBF6004FC6ED /* RegisterLogic.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = RegisterLogic.java; sourceTree = "<group>"; };
+		230493D61BA6BBF6004FC6ED /* SaveCDSLogic.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = SaveCDSLogic.java; sourceTree = "<group>"; };
+		230493D71BA6BBF6004FC6ED /* UploadStateLogic.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = UploadStateLogic.java; sourceTree = "<group>"; };
+		230493D91BA6BBF6004FC6ED /* AddOneFollowUpLogic.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = AddOneFollowUpLogic.java; sourceTree = "<group>"; };
+		230493DA1BA6BBF6004FC6ED /* AddOrRefuseFriendLogic.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = AddOrRefuseFriendLogic.java; sourceTree = "<group>"; };
+		230493DB1BA6BBF6004FC6ED /* AddRecordLogic.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = AddRecordLogic.java; sourceTree = "<group>"; };
+		230493DC1BA6BBF6004FC6ED /* AlarmClockLogic.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = AlarmClockLogic.java; sourceTree = "<group>"; };
+		230493DD1BA6BBF6004FC6ED /* AnnualFreeLogic.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = AnnualFreeLogic.java; sourceTree = "<group>"; };
+		230493DE1BA6BBF6004FC6ED /* BrowsePicLogic.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = BrowsePicLogic.java; sourceTree = "<group>"; };
+		230493DF1BA6BBF6004FC6ED /* CancleFollowUpLogic.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = CancleFollowUpLogic.java; sourceTree = "<group>"; };
+		230493E01BA6BBF6004FC6ED /* ChangeDPNameLogic.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = ChangeDPNameLogic.java; sourceTree = "<group>"; };
+		230493E11BA6BBF6004FC6ED /* ContactLogic.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = ContactLogic.java; sourceTree = "<group>"; };
+		230493E21BA6BBF6004FC6ED /* CreatePatientLogic.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = CreatePatientLogic.java; sourceTree = "<group>"; };
+		230493E31BA6BBF6004FC6ED /* CreateRecordLogic.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = CreateRecordLogic.java; sourceTree = "<group>"; };
+		230493E41BA6BBF6004FC6ED /* DeleteFollowUpTempleLogic.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = DeleteFollowUpTempleLogic.java; sourceTree = "<group>"; };
+		230493E51BA6BBF6004FC6ED /* DelPatientLogic.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = DelPatientLogic.java; sourceTree = "<group>"; };
+		230493E61BA6BBF6004FC6ED /* DelRecordLogic.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = DelRecordLogic.java; sourceTree = "<group>"; };
+		230493E71BA6BBF6004FC6ED /* DoctorAddFriendLogic.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = DoctorAddFriendLogic.java; sourceTree = "<group>"; };
+		230493E81BA6BBF6004FC6ED /* DoctorHomeLogic.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = DoctorHomeLogic.java; sourceTree = "<group>"; };
+		230493E91BA6BBF6004FC6ED /* EditOneExamItemLogic.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = EditOneExamItemLogic.java; sourceTree = "<group>"; };
+		230493EA1BA6BBF6004FC6ED /* ExpenseDetailLogic.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = ExpenseDetailLogic.java; sourceTree = "<group>"; };
+		230493EB1BA6BBF6004FC6ED /* FollowUpTempleListLogic.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = FollowUpTempleListLogic.java; sourceTree = "<group>"; };
+		230493EC1BA6BBF6004FC6ED /* GetAddingFriendsListLogic.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = GetAddingFriendsListLogic.java; sourceTree = "<group>"; };
+		230493ED1BA6BBF6004FC6ED /* GetExamListLogic.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = GetExamListLogic.java; sourceTree = "<group>"; };
+		230493EE1BA6BBF6004FC6ED /* GetPatientItemExamLogic.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = GetPatientItemExamLogic.java; sourceTree = "<group>"; };
+		230493EF1BA6BBF6004FC6ED /* GetPatientListLogic.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = GetPatientListLogic.java; sourceTree = "<group>"; };
+		230493F01BA6BBF6004FC6ED /* GetRecordDetailsLogic.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = GetRecordDetailsLogic.java; sourceTree = "<group>"; };
+		230493F11BA6BBF6004FC6ED /* GetRecordInfoByItemLogic.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = GetRecordInfoByItemLogic.java; sourceTree = "<group>"; };
+		230493F21BA6BBF6004FC6ED /* GetRecordItemLogic.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = GetRecordItemLogic.java; sourceTree = "<group>"; };
+		230493F31BA6BBF6004FC6ED /* GetRecordListLogic.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = GetRecordListLogic.java; sourceTree = "<group>"; };
+		230493F41BA6BBF6004FC6ED /* GetRecordTypeListLogic.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = GetRecordTypeListLogic.java; sourceTree = "<group>"; };
+		230493F51BA6BBF6004FC6ED /* HomeGetChartDataLogic.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = HomeGetChartDataLogic.java; sourceTree = "<group>"; };
+		230493F61BA6BBF6004FC6ED /* HomeMessageLogic.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = HomeMessageLogic.java; sourceTree = "<group>"; };
+		230493F71BA6BBF6004FC6ED /* LogicExamCharts.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = LogicExamCharts.java; sourceTree = "<group>"; };
+		230493F81BA6BBF6004FC6ED /* ModifyPatientNameLogic.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = ModifyPatientNameLogic.java; sourceTree = "<group>"; };
+		230493F91BA6BBF6004FC6ED /* ModifyRecordNameLogic.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = ModifyRecordNameLogic.java; sourceTree = "<group>"; };
+		230493FA1BA6BBF6004FC6ED /* OperateFollowUpTempleLogic.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = OperateFollowUpTempleLogic.java; sourceTree = "<group>"; };
+		230493FB1BA6BBF6004FC6ED /* PostRemarkLogic.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = PostRemarkLogic.java; sourceTree = "<group>"; };
+		230493FC1BA6BBF6004FC6ED /* ReadUserInfoLogic.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = ReadUserInfoLogic.java; sourceTree = "<group>"; };
+		230493FD1BA6BBF6004FC6ED /* RemoveRecordItemLogic.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = RemoveRecordItemLogic.java; sourceTree = "<group>"; };
+		230493FE1BA6BBF6004FC6ED /* RequestCSDLogic.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = RequestCSDLogic.java; sourceTree = "<group>"; };
+		230493FF1BA6BBF6004FC6ED /* RequestMedicineLogic.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = RequestMedicineLogic.java; sourceTree = "<group>"; };
+		230494001BA6BBF6004FC6ED /* ResetDoctorInfoLogic.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = ResetDoctorInfoLogic.java; sourceTree = "<group>"; };
+		230494011BA6BBF6004FC6ED /* ResquestIdentfyLogic.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = ResquestIdentfyLogic.java; sourceTree = "<group>"; };
+		230494021BA6BBF6004FC6ED /* SearchDepartmentLogic.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = SearchDepartmentLogic.java; sourceTree = "<group>"; };
+		230494031BA6BBF6004FC6ED /* SearchFollowUpDetailLogic.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = SearchFollowUpDetailLogic.java; sourceTree = "<group>"; };
+		230494041BA6BBF6004FC6ED /* SearchFollowUpTempleDetailLogic.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = SearchFollowUpTempleDetailLogic.java; sourceTree = "<group>"; };
+		230494051BA6BBF6004FC6ED /* SearchFriendsLogic.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = SearchFriendsLogic.java; sourceTree = "<group>"; };
+		230494061BA6BBF6004FC6ED /* SearchHospitalLogic.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = SearchHospitalLogic.java; sourceTree = "<group>"; };
+		230494071BA6BBF6004FC6ED /* SearchPatientDetailLogic.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = SearchPatientDetailLogic.java; sourceTree = "<group>"; };
+		230494081BA6BBF6004FC6ED /* SearchPatientLogic.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = SearchPatientLogic.java; sourceTree = "<group>"; };
+		230494091BA6BBF6004FC6ED /* SendFollowUpLeaveMessageLogic.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = SendFollowUpLeaveMessageLogic.java; sourceTree = "<group>"; };
+		2304940A1BA6BBF6004FC6ED /* SettingLogic.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = SettingLogic.java; sourceTree = "<group>"; };
+		2304940B1BA6BBF6004FC6ED /* ShareRecordLogic.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = ShareRecordLogic.java; sourceTree = "<group>"; };
+		2304940C1BA6BBF6004FC6ED /* SurveyPatientLogic.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = SurveyPatientLogic.java; sourceTree = "<group>"; };
+		2304940D1BA6BBF6004FC6ED /* SurveyRecordLogic.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = SurveyRecordLogic.java; sourceTree = "<group>"; };
+		2304940E1BA6BBF6004FC6ED /* TagLogic.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = TagLogic.java; sourceTree = "<group>"; };
+		2304940F1BA6BBF6004FC6ED /* UploadFeedBackLogic.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = UploadFeedBackLogic.java; sourceTree = "<group>"; };
+		230494101BA6BBF6004FC6ED /* UploadRecordLogic.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = UploadRecordLogic.java; sourceTree = "<group>"; };
+		230494111BA6BBF6004FC6ED /* UserInfoManagerLogic.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = UserInfoManagerLogic.java; sourceTree = "<group>"; };
+		230494121BA6BBF6004FC6ED /* ViewOCRInfoLogic.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = ViewOCRInfoLogic.java; sourceTree = "<group>"; };
+		230494131BA6BBF6004FC6ED /* ViewRemarksLogic.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = ViewRemarksLogic.java; sourceTree = "<group>"; };
+		230494151BA6BBF6004FC6ED /* ExamChartTools.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = ExamChartTools.java; sourceTree = "<group>"; };
+		230494161BA6BBF6004FC6ED /* PhotosManager.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = PhotosManager.java; sourceTree = "<group>"; };
+		230494171BA6BBF6004FC6ED /* ReadHistoryManager.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = ReadHistoryManager.java; sourceTree = "<group>"; };
+		230494181BA6BBF6004FC6ED /* SearchHistoryManager.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = SearchHistoryManager.java; sourceTree = "<group>"; };
+		230494191BA6BBF6004FC6ED /* Trash.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = Trash.java; sourceTree = "<group>"; };
+		2304941A1BA6BBF6004FC6ED /* SequenceHandel.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = SequenceHandel.java; sourceTree = "<group>"; };
+		2304941C1BA6BBF6004FC6ED /* BrowseRecord.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = BrowseRecord.java; sourceTree = "<group>"; };
+		2304941D1BA6BBF6004FC6ED /* ChangePasswordUILogic.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = ChangePasswordUILogic.java; sourceTree = "<group>"; };
+		2304941E1BA6BBF6004FC6ED /* ChangePhoneUILogic.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = ChangePhoneUILogic.java; sourceTree = "<group>"; };
+		2304941F1BA6BBF6004FC6ED /* ChartModel.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = ChartModel.java; sourceTree = "<group>"; };
+		230494201BA6BBF6004FC6ED /* PersonInfoUILogic.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = PersonInfoUILogic.java; sourceTree = "<group>"; };
+		230494211BA6BBF6004FC6ED /* RecordDTExamLogic.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = RecordDTExamLogic.java; sourceTree = "<group>"; };
+		230494221BA6BBF6004FC6ED /* RecordDTLogic.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = RecordDTLogic.java; sourceTree = "<group>"; };
+		230494231BA6BBF6004FC6ED /* RecordDTNormalLogic.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = RecordDTNormalLogic.java; sourceTree = "<group>"; };
+		230494241BA6BBF6004FC6ED /* RegisterUILogic.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = RegisterUILogic.java; sourceTree = "<group>"; };
+		230494251BA6BBF6004FC6ED /* ReportDocumentUILogic.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = ReportDocumentUILogic.java; sourceTree = "<group>"; };
+		230494261BA6BBF6004FC6ED /* SaveInfoUILogic.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = SaveInfoUILogic.java; sourceTree = "<group>"; };
+		230494271BA6BBF6004FC6ED /* TagUtils.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = TagUtils.java; sourceTree = "<group>"; };
+		230494281BA6BBF6004FC6ED /* UIAuthLogic.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = UIAuthLogic.java; sourceTree = "<group>"; };
+		230494291BA6BBF6004FC6ED /* UILoginLogic.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = UILoginLogic.java; sourceTree = "<group>"; };
+		2304942B1BA6BBF6004FC6ED /* OneCopy.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = OneCopy.java; sourceTree = "<group>"; };
+		2304942C1BA6BBF6004FC6ED /* OneType.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = OneType.java; sourceTree = "<group>"; };
+		2304942F1BA6BBF6004FC6ED /* FQHeader.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = FQHeader.java; sourceTree = "<group>"; };
+		230494311BA6BBF6004FC6ED /* ParamsWrapper.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = ParamsWrapper.java; sourceTree = "<group>"; };
+		230494341BA6BBF6004FC6ED /* FQLoopQueue.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = FQLoopQueue.java; sourceTree = "<group>"; };
+		230494351BA6BBF6004FC6ED /* LoopCell.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = LoopCell.java; sourceTree = "<group>"; };
+		230494361BA6BBF6004FC6ED /* LoopCellHandle.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = LoopCellHandle.java; sourceTree = "<group>"; };
+		230494371BA6BBF6004FC6ED /* LoopUpLoadCell.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = LoopUpLoadCell.java; sourceTree = "<group>"; };
+		230494381BA6BBF6004FC6ED /* onHandlerCompleteListener.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = onHandlerCompleteListener.java; sourceTree = "<group>"; };
+		2304943A1BA6BBF6004FC6ED /* FQBinaryResponseHandle.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = FQBinaryResponseHandle.java; sourceTree = "<group>"; };
+		2304943B1BA6BBF6004FC6ED /* FQHttpResponseHandle.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = FQHttpResponseHandle.java; sourceTree = "<group>"; };
+		2304943C1BA6BBF6004FC6ED /* FQHttpResponseInterface.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = FQHttpResponseInterface.java; sourceTree = "<group>"; };
+		2304943D1BA6BBF6004FC6ED /* FQJsonResponseHandle.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = FQJsonResponseHandle.java; sourceTree = "<group>"; };
+		2304943E1BA6BBF6004FC6ED /* FQStringResponseHandle.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = FQStringResponseHandle.java; sourceTree = "<group>"; };
+		2304943F1BA6BBF6004FC6ED /* HttpClientPotocol.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = HttpClientPotocol.java; sourceTree = "<group>"; };
+		230494401BA6BBF6004FC6ED /* HttpParamPotocol.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = HttpParamPotocol.java; sourceTree = "<group>"; };
+		230494411BA6BBF6004FC6ED /* HttpRequestPotocol.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = HttpRequestPotocol.java; sourceTree = "<group>"; };
+		230494421BA6BBF6004FC6ED /* PracticeResponseHandle.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = PracticeResponseHandle.java; sourceTree = "<group>"; };
+		230494451BA6BBF6004FC6ED /* ICallback.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = ICallback.java; sourceTree = "<group>"; };
+		230494461BA6BBF6004FC6ED /* ChinesetSortHelper.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = ChinesetSortHelper.java; sourceTree = "<group>"; };
+		230494471BA6BBF6004FC6ED /* FileHelper.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = FileHelper.java; sourceTree = "<group>"; };
+		230494481BA6BBF6004FC6ED /* HttpHelper.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = HttpHelper.java; sourceTree = "<group>"; };
+		230494491BA6BBF6004FC6ED /* IOHelper.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = IOHelper.java; sourceTree = "<group>"; };
+		2304944B1BA6BBF6004FC6ED /* JSON.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = JSON.java; sourceTree = "<group>"; };
+		2304944C1BA6BBF6004FC6ED /* JSONArray.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = JSONArray.java; sourceTree = "<group>"; };
+		2304944D1BA6BBF6004FC6ED /* JSONException.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = JSONException.java; sourceTree = "<group>"; };
+		2304944E1BA6BBF6004FC6ED /* JSONObject.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = JSONObject.java; sourceTree = "<group>"; };
+		2304944F1BA6BBF6004FC6ED /* JSONStringer.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = JSONStringer.java; sourceTree = "<group>"; };
+		230494501BA6BBF6004FC6ED /* JSONTokener.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = JSONTokener.java; sourceTree = "<group>"; };
+		230494511BA6BBF6004FC6ED /* JsonHelper.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = JsonHelper.java; sourceTree = "<group>"; };
+		230494531BA6BBF6004FC6ED /* BadHanyuPinyinOutputFormatCombination.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = BadHanyuPinyinOutputFormatCombination.java; sourceTree = "<group>"; };
+		230494541BA6BBF6004FC6ED /* ChineseToPinyinResource.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = ChineseToPinyinResource.java; sourceTree = "<group>"; };
+		230494551BA6BBF6004FC6ED /* GwoyeuRomatzyhResource.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = GwoyeuRomatzyhResource.java; sourceTree = "<group>"; };
+		230494561BA6BBF6004FC6ED /* GwoyeuRomatzyhTranslator.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = GwoyeuRomatzyhTranslator.java; sourceTree = "<group>"; };
+		230494571BA6BBF6004FC6ED /* HanyuPinyinCaseType.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = HanyuPinyinCaseType.java; sourceTree = "<group>"; };
+		230494581BA6BBF6004FC6ED /* HanyuPinyinOutputFormat.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = HanyuPinyinOutputFormat.java; sourceTree = "<group>"; };
+		230494591BA6BBF6004FC6ED /* HanyuPinyinToneType.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = HanyuPinyinToneType.java; sourceTree = "<group>"; };
+		2304945A1BA6BBF6004FC6ED /* HanyuPinyinVCharType.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = HanyuPinyinVCharType.java; sourceTree = "<group>"; };
+		2304945B1BA6BBF6004FC6ED /* PinyinFormatter.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = PinyinFormatter.java; sourceTree = "<group>"; };
+		2304945C1BA6BBF6004FC6ED /* PinyinHelper.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = PinyinHelper.java; sourceTree = "<group>"; };
+		2304945D1BA6BBF6004FC6ED /* PinyinRomanizationResource.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = PinyinRomanizationResource.java; sourceTree = "<group>"; };
+		2304945E1BA6BBF6004FC6ED /* PinyinRomanizationTranslator.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = PinyinRomanizationTranslator.java; sourceTree = "<group>"; };
+		2304945F1BA6BBF6004FC6ED /* PinyinRomanizationType.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = PinyinRomanizationType.java; sourceTree = "<group>"; };
+		230494601BA6BBF6004FC6ED /* ResourceHelper.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = ResourceHelper.java; sourceTree = "<group>"; };
+		230494611BA6BBF6004FC6ED /* TextHelper.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = TextHelper.java; sourceTree = "<group>"; };
+		230494621BA6BBF6004FC6ED /* unicode_to_hanyu_pinyin.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = unicode_to_hanyu_pinyin.txt; sourceTree = "<group>"; };
+		230494641BA6BBF6004FC6ED /* DES3Utils.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = DES3Utils.java; sourceTree = "<group>"; };
+		230494651BA6BBF6004FC6ED /* HMACSHA1.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = HMACSHA1.java; sourceTree = "<group>"; };
+		230494661BA6BBF6004FC6ED /* Platform.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = Platform.java; sourceTree = "<group>"; };
+		230494681BA6BBF6004FC6ED /* RecordCache.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = RecordCache.java; sourceTree = "<group>"; };
+		230494691BA6BBF6004FC6ED /* RecordConstants.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = RecordConstants.java; sourceTree = "<group>"; };
+		2304946A1BA6BBF6004FC6ED /* RecordTool.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = RecordTool.java; sourceTree = "<group>"; };
+		2304946B1BA6BBF6004FC6ED /* RecordUploadNotify.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = RecordUploadNotify.java; sourceTree = "<group>"; };
+		2304946C1BA6BBF6004FC6ED /* SnapPhotoManager.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = SnapPhotoManager.java; sourceTree = "<group>"; };
+		2304946E1BA6BBF6004FC6ED /* AeSimpleSHA1.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = AeSimpleSHA1.java; sourceTree = "<group>"; };
+		2304946F1BA6BBF6004FC6ED /* BaiduAnalysis.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = BaiduAnalysis.java; sourceTree = "<group>"; };
+		230494701BA6BBF6004FC6ED /* Base64Util.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = Base64Util.java; sourceTree = "<group>"; };
+		230494711BA6BBF6004FC6ED /* CareConstants.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = CareConstants.java; sourceTree = "<group>"; };
+		230494721BA6BBF6004FC6ED /* Constants.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = Constants.java; sourceTree = "<group>"; };
+		230494731BA6BBF6004FC6ED /* Data.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = Data.java; sourceTree = "<group>"; };
+		230494741BA6BBF6004FC6ED /* Encryption.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = Encryption.java; sourceTree = "<group>"; };
+		230494751BA6BBF6004FC6ED /* FQLog.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = FQLog.java; sourceTree = "<group>"; };
+		230494761BA6BBF6004FC6ED /* FQRemoteDebugTool.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = FQRemoteDebugTool.java; sourceTree = "<group>"; };
+		230494771BA6BBF6004FC6ED /* MD5.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = MD5.java; sourceTree = "<group>"; };
+		230494781BA6BBF6004FC6ED /* SettingFollowUpManager.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = SettingFollowUpManager.java; sourceTree = "<group>"; };
+		230494791BA6BBF6004FC6ED /* SHA1.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = SHA1.java; sourceTree = "<group>"; };
+		2304947A1BA6BBF6004FC6ED /* StrDataComparator.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = StrDataComparator.java; sourceTree = "<group>"; };
+		2304947B1BA6BBF6004FC6ED /* TimeFormatUtils.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = TimeFormatUtils.java; sourceTree = "<group>"; };
+		2304947C1BA6BBF6004FC6ED /* Tool.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = Tool.java; sourceTree = "<group>"; };
+		2304947D1BA6BBF6004FC6ED /* UriConstants.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = UriConstants.java; sourceTree = "<group>"; };
+		2304947E1BA6BBF6004FC6ED /* UserProfileManager.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = UserProfileManager.java; sourceTree = "<group>"; };
+		2304947F1BA6BBF6004FC6ED /* UploadImageHelper.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = UploadImageHelper.java; sourceTree = "<group>"; };
+		230494801BA6BBF6004FC6ED /* UserActionManger.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = UserActionManger.java; sourceTree = "<group>"; };
+		9E0082611AFA1AD9005428AB /* libExtends.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libExtends.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E00827B1AFA1B59005428AB /* Extends.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Extends.pch; sourceTree = "<group>"; };
+		9E00827D1AFA1BAC005428AB /* DES3Utils_IOS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DES3Utils_IOS.h; sourceTree = "<group>"; };
+		9E00827E1AFA1BAC005428AB /* DES3Utils_IOS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DES3Utils_IOS.m; sourceTree = "<group>"; };
+		9E00827F1AFA1BAC005428AB /* FQSecuritySession_IOS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FQSecuritySession_IOS.h; sourceTree = "<group>"; };
+		9E0082801AFA1BAC005428AB /* FQSecuritySession_IOS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FQSecuritySession_IOS.m; sourceTree = "<group>"; };
+		9E0082811AFA1BAC005428AB /* GTMBase64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMBase64.h; sourceTree = "<group>"; };
+		9E0082821AFA1BAC005428AB /* GTMBase64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMBase64.m; sourceTree = "<group>"; };
+		9E0082831AFA1BAC005428AB /* GTMDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMDefines.h; sourceTree = "<group>"; };
+		9E0082841AFA1BAC005428AB /* HMACSHA1_IOS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMACSHA1_IOS.h; sourceTree = "<group>"; };
+		9E0082851AFA1BAC005428AB /* HMACSHA1_IOS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMACSHA1_IOS.m; sourceTree = "<group>"; };
+		9E0082881AFA1BAC005428AB /* AFHTTPRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperation.h; sourceTree = "<group>"; };
+		9E0082891AFA1BAC005428AB /* AFHTTPRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPRequestOperation.m; sourceTree = "<group>"; };
+		9E00828A1AFA1BAC005428AB /* AFHTTPRequestOperationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperationManager.h; sourceTree = "<group>"; };
+		9E00828B1AFA1BAC005428AB /* AFHTTPRequestOperationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPRequestOperationManager.m; sourceTree = "<group>"; };
+		9E00828C1AFA1BAC005428AB /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPSessionManager.h; sourceTree = "<group>"; };
+		9E00828D1AFA1BAC005428AB /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPSessionManager.m; sourceTree = "<group>"; };
+		9E00828E1AFA1BAC005428AB /* AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworking.h; sourceTree = "<group>"; };
+		9E00828F1AFA1BAC005428AB /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
+		9E0082901AFA1BAC005428AB /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
+		9E0082911AFA1BAC005428AB /* AFSecurityPolicy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFSecurityPolicy.h; sourceTree = "<group>"; };
+		9E0082921AFA1BAC005428AB /* AFSecurityPolicy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFSecurityPolicy.m; sourceTree = "<group>"; };
+		9E0082931AFA1BAC005428AB /* AFURLConnectionOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLConnectionOperation.h; sourceTree = "<group>"; };
+		9E0082941AFA1BAC005428AB /* AFURLConnectionOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLConnectionOperation.m; sourceTree = "<group>"; };
+		9E0082951AFA1BAC005428AB /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLRequestSerialization.h; sourceTree = "<group>"; };
+		9E0082961AFA1BAC005428AB /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLRequestSerialization.m; sourceTree = "<group>"; };
+		9E0082971AFA1BAC005428AB /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLResponseSerialization.h; sourceTree = "<group>"; };
+		9E0082981AFA1BAC005428AB /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLResponseSerialization.m; sourceTree = "<group>"; };
+		9E0082991AFA1BAC005428AB /* AFURLSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLSessionManager.h; sourceTree = "<group>"; };
+		9E00829A1AFA1BAC005428AB /* AFURLSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLSessionManager.m; sourceTree = "<group>"; };
+		9E00829B1AFA1BAC005428AB /* HttpClient_IOS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HttpClient_IOS.h; sourceTree = "<group>"; };
+		9E00829C1AFA1BAC005428AB /* HttpClient_IOS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HttpClient_IOS.m; sourceTree = "<group>"; };
+		9E00829D1AFA1BAC005428AB /* HttpResponseHandle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HttpResponseHandle.h; sourceTree = "<group>"; };
+		9E00829E1AFA1BAC005428AB /* HttpResponseHandle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HttpResponseHandle.m; sourceTree = "<group>"; };
+		9E0082A01AFA1BAC005428AB /* AFNetworkActivityIndicatorManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkActivityIndicatorManager.h; sourceTree = "<group>"; };
+		9E0082A11AFA1BAC005428AB /* AFNetworkActivityIndicatorManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkActivityIndicatorManager.m; sourceTree = "<group>"; };
+		9E0082A21AFA1BAC005428AB /* UIActivityIndicatorView+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIActivityIndicatorView+AFNetworking.h"; sourceTree = "<group>"; };
+		9E0082A31AFA1BAC005428AB /* UIActivityIndicatorView+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIActivityIndicatorView+AFNetworking.m"; sourceTree = "<group>"; };
+		9E0082A41AFA1BAC005428AB /* UIAlertView+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertView+AFNetworking.h"; sourceTree = "<group>"; };
+		9E0082A51AFA1BAC005428AB /* UIAlertView+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertView+AFNetworking.m"; sourceTree = "<group>"; };
+		9E0082A61AFA1BAC005428AB /* UIButton+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+AFNetworking.h"; sourceTree = "<group>"; };
+		9E0082A71AFA1BAC005428AB /* UIButton+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+AFNetworking.m"; sourceTree = "<group>"; };
+		9E0082A81AFA1BAC005428AB /* UIImageView+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+AFNetworking.h"; sourceTree = "<group>"; };
+		9E0082A91AFA1BAC005428AB /* UIImageView+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+AFNetworking.m"; sourceTree = "<group>"; };
+		9E0082AA1AFA1BAC005428AB /* UIKit+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIKit+AFNetworking.h"; sourceTree = "<group>"; };
+		9E0082AB1AFA1BAC005428AB /* UIProgressView+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIProgressView+AFNetworking.h"; sourceTree = "<group>"; };
+		9E0082AC1AFA1BAC005428AB /* UIProgressView+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIProgressView+AFNetworking.m"; sourceTree = "<group>"; };
+		9E0082AD1AFA1BAC005428AB /* UIRefreshControl+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIRefreshControl+AFNetworking.h"; sourceTree = "<group>"; };
+		9E0082AE1AFA1BAC005428AB /* UIRefreshControl+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIRefreshControl+AFNetworking.m"; sourceTree = "<group>"; };
+		9E0082AF1AFA1BAC005428AB /* UIWebView+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWebView+AFNetworking.h"; sourceTree = "<group>"; };
+		9E0082B01AFA1BAC005428AB /* UIWebView+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWebView+AFNetworking.m"; sourceTree = "<group>"; };
+		9E0082B81AFA1BAC005428AB /* FQHttpParams.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = FQHttpParams.java; sourceTree = "<group>"; };
+		9E0082BA1AFA1BAC005428AB /* FQLooper.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = FQLooper.java; sourceTree = "<group>"; };
+		9E0082BE1AFA1BAC005428AB /* RequestParams.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = RequestParams.java; sourceTree = "<group>"; };
+		9E48C3E71AFA5C6200A23708 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		9E606AEF1B6276F800C55C98 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		9E606AF01B6276F800C55C98 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		9EB435961B6B102900B14207 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		9EE51CF11B69F4C5007E6361 /* Platform_IOS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Platform_IOS.h; sourceTree = "<group>"; };
+		9EE51CF21B69F4C5007E6361 /* Platform_IOS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Platform_IOS.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9E00825E1AFA1AD9005428AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		230493721BA6BBF6004FC6ED /* com */ = {
+			isa = PBXGroup;
+			children = (
+				230493731BA6BBF6004FC6ED /* fq */,
+			);
+			name = com;
+			path = ../../CareLogic/src/com;
+			sourceTree = "<group>";
+		};
+		230493731BA6BBF6004FC6ED /* fq */ = {
+			isa = PBXGroup;
+			children = (
+				230493741BA6BBF6004FC6ED /* halcyon */,
+				2304942D1BA6BBF6004FC6ED /* http */,
+				230494431BA6BBF6004FC6ED /* lib */,
+			);
+			path = fq;
+			sourceTree = "<group>";
+		};
+		230493741BA6BBF6004FC6ED /* halcyon */ = {
+			isa = PBXGroup;
+			children = (
+				230493751BA6BBF6004FC6ED /* api */,
+				230493771BA6BBF6004FC6ED /* entity */,
+				230493B11BA6BBF6004FC6ED /* extend */,
+				230493B51BA6BBF6004FC6ED /* HalcyonHttpResponseHandle.java */,
+				230493B61BA6BBF6004FC6ED /* HalcyonUploadLooper.java */,
+				230493B71BA6BBF6004FC6ED /* HalyconOnLineHandle.java */,
+				230493B81BA6BBF6004FC6ED /* IOS.java */,
+				230493B91BA6BBF6004FC6ED /* logic */,
+				230493D81BA6BBF6004FC6ED /* logic2 */,
+				230494141BA6BBF6004FC6ED /* practice */,
+				2304941A1BA6BBF6004FC6ED /* SequenceHandel.java */,
+				2304941B1BA6BBF6004FC6ED /* uilogic */,
+				2304942A1BA6BBF6004FC6ED /* uimodels */,
+			);
+			path = halcyon;
+			sourceTree = "<group>";
+		};
+		230493751BA6BBF6004FC6ED /* api */ = {
+			isa = PBXGroup;
+			children = (
+				230493761BA6BBF6004FC6ED /* ApiSystem.java */,
+			);
+			path = api;
+			sourceTree = "<group>";
+		};
+		230493771BA6BBF6004FC6ED /* entity */ = {
+			isa = PBXGroup;
+			children = (
+				230493781BA6BBF6004FC6ED /* AlarmClock.java */,
+				230493791BA6BBF6004FC6ED /* care */,
+				2304937C1BA6BBF6004FC6ED /* CertificationStatus.java */,
+				2304937D1BA6BBF6004FC6ED /* ChartEntity.java */,
+				2304937E1BA6BBF6004FC6ED /* ChatUserInfo.java */,
+				2304937F1BA6BBF6004FC6ED /* City.java */,
+				230493801BA6BBF6004FC6ED /* Contacts.java */,
+				230493811BA6BBF6004FC6ED /* Department.java */,
+				230493821BA6BBF6004FC6ED /* Doctor.java */,
+				230493831BA6BBF6004FC6ED /* Exam.java */,
+				230493841BA6BBF6004FC6ED /* FollowUp.java */,
+				230493851BA6BBF6004FC6ED /* FollowUpTemple.java */,
+				230493861BA6BBF6004FC6ED /* HalcyonEntity.java */,
+				230493871BA6BBF6004FC6ED /* HomeData.java */,
+				230493881BA6BBF6004FC6ED /* HomeOneDayData.java */,
+				230493891BA6BBF6004FC6ED /* Hospital.java */,
+				2304938A1BA6BBF6004FC6ED /* ItemExam.java */,
+				2304938B1BA6BBF6004FC6ED /* LeaveMessage.java */,
+				2304938C1BA6BBF6004FC6ED /* Medicine.java */,
+				2304938D1BA6BBF6004FC6ED /* OnceFollowUpCycle.java */,
+				2304938E1BA6BBF6004FC6ED /* Patient.java */,
+				2304938F1BA6BBF6004FC6ED /* PatientFriend.java */,
+				230493901BA6BBF6004FC6ED /* Person.java */,
+				230493911BA6BBF6004FC6ED /* Photo.java */,
+				230493921BA6BBF6004FC6ED /* PhotoRecord.java */,
+				230493931BA6BBF6004FC6ED /* practice */,
+				2304939C1BA6BBF6004FC6ED /* Record.java */,
+				2304939D1BA6BBF6004FC6ED /* RecordExams.java */,
+				2304939E1BA6BBF6004FC6ED /* RecordInfo.java */,
+				2304939F1BA6BBF6004FC6ED /* RecordItem.java */,
+				230493A01BA6BBF6004FC6ED /* RecordItemSamp.java */,
+				230493A11BA6BBF6004FC6ED /* RecordType.java */,
+				230493A21BA6BBF6004FC6ED /* Remark.java */,
+				230493A31BA6BBF6004FC6ED /* ScoreDetail.java */,
+				230493A41BA6BBF6004FC6ED /* SurveyPatientItem.java */,
+				230493A51BA6BBF6004FC6ED /* SurveyRecordItem.java */,
+				230493A61BA6BBF6004FC6ED /* Tag.java */,
+				230493A71BA6BBF6004FC6ED /* Timer.java */,
+				230493A81BA6BBF6004FC6ED /* TimerMember.java */,
+				230493A91BA6BBF6004FC6ED /* User.java */,
+				230493AA1BA6BBF6004FC6ED /* UserAction.java */,
+				230493AB1BA6BBF6004FC6ED /* Version.java */,
+				230493AC1BA6BBF6004FC6ED /* visualize */,
+				230493B01BA6BBF6004FC6ED /* VisualizeCard.java */,
+			);
+			path = entity;
+			sourceTree = "<group>";
+		};
+		230493791BA6BBF6004FC6ED /* care */ = {
+			isa = PBXGroup;
+			children = (
+				2304937A1BA6BBF6004FC6ED /* MedicalItem.java */,
+				2304937B1BA6BBF6004FC6ED /* MedicalReport.java */,
+			);
+			path = care;
+			sourceTree = "<group>";
+		};
+		230493931BA6BBF6004FC6ED /* practice */ = {
+			isa = PBXGroup;
+			children = (
+				230493941BA6BBF6004FC6ED /* MyRelationship.java */,
+				230493951BA6BBF6004FC6ED /* PatientAbstract.java */,
+				230493961BA6BBF6004FC6ED /* PatientRecommendName.java */,
+				230493971BA6BBF6004FC6ED /* RecordAbstract.java */,
+				230493981BA6BBF6004FC6ED /* RecordData.java */,
+				230493991BA6BBF6004FC6ED /* SearchFilter.java */,
+				2304939A1BA6BBF6004FC6ED /* SearchParams.java */,
+				2304939B1BA6BBF6004FC6ED /* StandardExamRecord.java */,
+			);
+			path = practice;
+			sourceTree = "<group>";
+		};
+		230493AC1BA6BBF6004FC6ED /* visualize */ = {
+			isa = PBXGroup;
+			children = (
+				230493AD1BA6BBF6004FC6ED /* VisualData.java */,
+				230493AE1BA6BBF6004FC6ED /* VisualizeEntity.java */,
+				230493AF1BA6BBF6004FC6ED /* VisualMap.java */,
+			);
+			path = visualize;
+			sourceTree = "<group>";
+		};
+		230493B11BA6BBF6004FC6ED /* extend */ = {
+			isa = PBXGroup;
+			children = (
+				230493B21BA6BBF6004FC6ED /* filesystem */,
+			);
+			path = extend;
+			sourceTree = "<group>";
+		};
+		230493B21BA6BBF6004FC6ED /* filesystem */ = {
+			isa = PBXGroup;
+			children = (
+				230493B31BA6BBF6004FC6ED /* FileSystem.java */,
+				230493B41BA6BBF6004FC6ED /* PathUrlMap.java */,
+			);
+			path = filesystem;
+			sourceTree = "<group>";
+		};
+		230493B91BA6BBF6004FC6ED /* logic */ = {
+			isa = PBXGroup;
+			children = (
+				230493BA1BA6BBF6004FC6ED /* BaseLogic.java */,
+				230493BB1BA6BBF6004FC6ED /* care */,
+				230493BD1BA6BBF6004FC6ED /* CheckVersionLogic.java */,
+				230493BE1BA6BBF6004FC6ED /* DoctorAuthLogic.java */,
+				230493BF1BA6BBF6004FC6ED /* GetImagePathLogic.java */,
+				230493C01BA6BBF6004FC6ED /* GetProviderLogic.java */,
+				230493C11BA6BBF6004FC6ED /* GetUserTotalDataLogic.java */,
+				230493C21BA6BBF6004FC6ED /* LoginLogic.java */,
+				230493C31BA6BBF6004FC6ED /* practice */,
+				230493D51BA6BBF6004FC6ED /* RegisterLogic.java */,
+				230493D61BA6BBF6004FC6ED /* SaveCDSLogic.java */,
+				230493D71BA6BBF6004FC6ED /* UploadStateLogic.java */,
+			);
+			path = logic;
+			sourceTree = "<group>";
+		};
+		230493BB1BA6BBF6004FC6ED /* care */ = {
+			isa = PBXGroup;
+			children = (
+				230493BC1BA6BBF6004FC6ED /* ReportChartLogic.java */,
+			);
+			path = care;
+			sourceTree = "<group>";
+		};
+		230493C31BA6BBF6004FC6ED /* practice */ = {
+			isa = PBXGroup;
+			children = (
+				230493C41BA6BBF6004FC6ED /* AddMemberLogic.java */,
+				230493C51BA6BBF6004FC6ED /* ChatGroupLogic.java */,
+				230493C61BA6BBF6004FC6ED /* CloudRecognizeLogic.java */,
+				230493C71BA6BBF6004FC6ED /* DelGroupChatLogic.java */,
+				230493C81BA6BBF6004FC6ED /* DelMemberLogic.java */,
+				230493C91BA6BBF6004FC6ED /* GetMemberListLogic.java */,
+				230493CA1BA6BBF6004FC6ED /* PatientNameLogic.java */,
+				230493CB1BA6BBF6004FC6ED /* PatientUpdateListLogic.java */,
+				230493CC1BA6BBF6004FC6ED /* RecognitionLogic.java */,
+				230493CD1BA6BBF6004FC6ED /* RecordListLogic.java */,
+				230493CE1BA6BBF6004FC6ED /* RecycleLogic.java */,
+				230493CF1BA6BBF6004FC6ED /* SearchLogic.java */,
+				230493D01BA6BBF6004FC6ED /* SendPatientLogic.java */,
+				230493D11BA6BBF6004FC6ED /* ShareLogic.java */,
+				230493D21BA6BBF6004FC6ED /* StructuredLogic.java */,
+				230493D31BA6BBF6004FC6ED /* UpLoadChatImageLogic.java */,
+				230493D41BA6BBF6004FC6ED /* UpLoadChatImageManager.java */,
+			);
+			path = practice;
+			sourceTree = "<group>";
+		};
+		230493D81BA6BBF6004FC6ED /* logic2 */ = {
+			isa = PBXGroup;
+			children = (
+				230493D91BA6BBF6004FC6ED /* AddOneFollowUpLogic.java */,
+				230493DA1BA6BBF6004FC6ED /* AddOrRefuseFriendLogic.java */,
+				230493DB1BA6BBF6004FC6ED /* AddRecordLogic.java */,
+				230493DC1BA6BBF6004FC6ED /* AlarmClockLogic.java */,
+				230493DD1BA6BBF6004FC6ED /* AnnualFreeLogic.java */,
+				230493DE1BA6BBF6004FC6ED /* BrowsePicLogic.java */,
+				230493DF1BA6BBF6004FC6ED /* CancleFollowUpLogic.java */,
+				230493E01BA6BBF6004FC6ED /* ChangeDPNameLogic.java */,
+				230493E11BA6BBF6004FC6ED /* ContactLogic.java */,
+				230493E21BA6BBF6004FC6ED /* CreatePatientLogic.java */,
+				230493E31BA6BBF6004FC6ED /* CreateRecordLogic.java */,
+				230493E41BA6BBF6004FC6ED /* DeleteFollowUpTempleLogic.java */,
+				230493E51BA6BBF6004FC6ED /* DelPatientLogic.java */,
+				230493E61BA6BBF6004FC6ED /* DelRecordLogic.java */,
+				230493E71BA6BBF6004FC6ED /* DoctorAddFriendLogic.java */,
+				230493E81BA6BBF6004FC6ED /* DoctorHomeLogic.java */,
+				230493E91BA6BBF6004FC6ED /* EditOneExamItemLogic.java */,
+				230493EA1BA6BBF6004FC6ED /* ExpenseDetailLogic.java */,
+				230493EB1BA6BBF6004FC6ED /* FollowUpTempleListLogic.java */,
+				230493EC1BA6BBF6004FC6ED /* GetAddingFriendsListLogic.java */,
+				230493ED1BA6BBF6004FC6ED /* GetExamListLogic.java */,
+				230493EE1BA6BBF6004FC6ED /* GetPatientItemExamLogic.java */,
+				230493EF1BA6BBF6004FC6ED /* GetPatientListLogic.java */,
+				230493F01BA6BBF6004FC6ED /* GetRecordDetailsLogic.java */,
+				230493F11BA6BBF6004FC6ED /* GetRecordInfoByItemLogic.java */,
+				230493F21BA6BBF6004FC6ED /* GetRecordItemLogic.java */,
+				230493F31BA6BBF6004FC6ED /* GetRecordListLogic.java */,
+				230493F41BA6BBF6004FC6ED /* GetRecordTypeListLogic.java */,
+				230493F51BA6BBF6004FC6ED /* HomeGetChartDataLogic.java */,
+				230493F61BA6BBF6004FC6ED /* HomeMessageLogic.java */,
+				230493F71BA6BBF6004FC6ED /* LogicExamCharts.java */,
+				230493F81BA6BBF6004FC6ED /* ModifyPatientNameLogic.java */,
+				230493F91BA6BBF6004FC6ED /* ModifyRecordNameLogic.java */,
+				230493FA1BA6BBF6004FC6ED /* OperateFollowUpTempleLogic.java */,
+				230493FB1BA6BBF6004FC6ED /* PostRemarkLogic.java */,
+				230493FC1BA6BBF6004FC6ED /* ReadUserInfoLogic.java */,
+				230493FD1BA6BBF6004FC6ED /* RemoveRecordItemLogic.java */,
+				230493FE1BA6BBF6004FC6ED /* RequestCSDLogic.java */,
+				230493FF1BA6BBF6004FC6ED /* RequestMedicineLogic.java */,
+				230494001BA6BBF6004FC6ED /* ResetDoctorInfoLogic.java */,
+				230494011BA6BBF6004FC6ED /* ResquestIdentfyLogic.java */,
+				230494021BA6BBF6004FC6ED /* SearchDepartmentLogic.java */,
+				230494031BA6BBF6004FC6ED /* SearchFollowUpDetailLogic.java */,
+				230494041BA6BBF6004FC6ED /* SearchFollowUpTempleDetailLogic.java */,
+				230494051BA6BBF6004FC6ED /* SearchFriendsLogic.java */,
+				230494061BA6BBF6004FC6ED /* SearchHospitalLogic.java */,
+				230494071BA6BBF6004FC6ED /* SearchPatientDetailLogic.java */,
+				230494081BA6BBF6004FC6ED /* SearchPatientLogic.java */,
+				230494091BA6BBF6004FC6ED /* SendFollowUpLeaveMessageLogic.java */,
+				2304940A1BA6BBF6004FC6ED /* SettingLogic.java */,
+				2304940B1BA6BBF6004FC6ED /* ShareRecordLogic.java */,
+				2304940C1BA6BBF6004FC6ED /* SurveyPatientLogic.java */,
+				2304940D1BA6BBF6004FC6ED /* SurveyRecordLogic.java */,
+				2304940E1BA6BBF6004FC6ED /* TagLogic.java */,
+				2304940F1BA6BBF6004FC6ED /* UploadFeedBackLogic.java */,
+				230494101BA6BBF6004FC6ED /* UploadRecordLogic.java */,
+				230494111BA6BBF6004FC6ED /* UserInfoManagerLogic.java */,
+				230494121BA6BBF6004FC6ED /* ViewOCRInfoLogic.java */,
+				230494131BA6BBF6004FC6ED /* ViewRemarksLogic.java */,
+			);
+			path = logic2;
+			sourceTree = "<group>";
+		};
+		230494141BA6BBF6004FC6ED /* practice */ = {
+			isa = PBXGroup;
+			children = (
+				230494151BA6BBF6004FC6ED /* ExamChartTools.java */,
+				230494161BA6BBF6004FC6ED /* PhotosManager.java */,
+				230494171BA6BBF6004FC6ED /* ReadHistoryManager.java */,
+				230494181BA6BBF6004FC6ED /* SearchHistoryManager.java */,
+				230494191BA6BBF6004FC6ED /* Trash.java */,
+			);
+			path = practice;
+			sourceTree = "<group>";
+		};
+		2304941B1BA6BBF6004FC6ED /* uilogic */ = {
+			isa = PBXGroup;
+			children = (
+				2304941C1BA6BBF6004FC6ED /* BrowseRecord.java */,
+				2304941D1BA6BBF6004FC6ED /* ChangePasswordUILogic.java */,
+				2304941E1BA6BBF6004FC6ED /* ChangePhoneUILogic.java */,
+				2304941F1BA6BBF6004FC6ED /* ChartModel.java */,
+				230494201BA6BBF6004FC6ED /* PersonInfoUILogic.java */,
+				230494211BA6BBF6004FC6ED /* RecordDTExamLogic.java */,
+				230494221BA6BBF6004FC6ED /* RecordDTLogic.java */,
+				230494231BA6BBF6004FC6ED /* RecordDTNormalLogic.java */,
+				230494241BA6BBF6004FC6ED /* RegisterUILogic.java */,
+				230494251BA6BBF6004FC6ED /* ReportDocumentUILogic.java */,
+				230494261BA6BBF6004FC6ED /* SaveInfoUILogic.java */,
+				230494271BA6BBF6004FC6ED /* TagUtils.java */,
+				230494281BA6BBF6004FC6ED /* UIAuthLogic.java */,
+				230494291BA6BBF6004FC6ED /* UILoginLogic.java */,
+			);
+			path = uilogic;
+			sourceTree = "<group>";
+		};
+		2304942A1BA6BBF6004FC6ED /* uimodels */ = {
+			isa = PBXGroup;
+			children = (
+				2304942B1BA6BBF6004FC6ED /* OneCopy.java */,
+				2304942C1BA6BBF6004FC6ED /* OneType.java */,
+			);
+			path = uimodels;
+			sourceTree = "<group>";
+		};
+		2304942D1BA6BBF6004FC6ED /* http */ = {
+			isa = PBXGroup;
+			children = (
+				2304942E1BA6BBF6004FC6ED /* async */,
+				230494391BA6BBF6004FC6ED /* potocol */,
+			);
+			path = http;
+			sourceTree = "<group>";
+		};
+		2304942E1BA6BBF6004FC6ED /* async */ = {
+			isa = PBXGroup;
+			children = (
+				2304942F1BA6BBF6004FC6ED /* FQHeader.java */,
+				230494311BA6BBF6004FC6ED /* ParamsWrapper.java */,
+				230494321BA6BBF6004FC6ED /* uploadloop */,
+			);
+			path = async;
+			sourceTree = "<group>";
+		};
+		230494321BA6BBF6004FC6ED /* uploadloop */ = {
+			isa = PBXGroup;
+			children = (
+				230494341BA6BBF6004FC6ED /* FQLoopQueue.java */,
+				230494351BA6BBF6004FC6ED /* LoopCell.java */,
+				230494361BA6BBF6004FC6ED /* LoopCellHandle.java */,
+				230494371BA6BBF6004FC6ED /* LoopUpLoadCell.java */,
+				230494381BA6BBF6004FC6ED /* onHandlerCompleteListener.java */,
+			);
+			path = uploadloop;
+			sourceTree = "<group>";
+		};
+		230494391BA6BBF6004FC6ED /* potocol */ = {
+			isa = PBXGroup;
+			children = (
+				2304943A1BA6BBF6004FC6ED /* FQBinaryResponseHandle.java */,
+				2304943B1BA6BBF6004FC6ED /* FQHttpResponseHandle.java */,
+				2304943C1BA6BBF6004FC6ED /* FQHttpResponseInterface.java */,
+				2304943D1BA6BBF6004FC6ED /* FQJsonResponseHandle.java */,
+				2304943E1BA6BBF6004FC6ED /* FQStringResponseHandle.java */,
+				2304943F1BA6BBF6004FC6ED /* HttpClientPotocol.java */,
+				230494401BA6BBF6004FC6ED /* HttpParamPotocol.java */,
+				230494411BA6BBF6004FC6ED /* HttpRequestPotocol.java */,
+				230494421BA6BBF6004FC6ED /* PracticeResponseHandle.java */,
+			);
+			path = potocol;
+			sourceTree = "<group>";
+		};
+		230494431BA6BBF6004FC6ED /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				230494441BA6BBF6004FC6ED /* callback */,
+				230494461BA6BBF6004FC6ED /* ChinesetSortHelper.java */,
+				230494471BA6BBF6004FC6ED /* FileHelper.java */,
+				230494481BA6BBF6004FC6ED /* HttpHelper.java */,
+				230494491BA6BBF6004FC6ED /* IOHelper.java */,
+				2304944A1BA6BBF6004FC6ED /* json */,
+				230494511BA6BBF6004FC6ED /* JsonHelper.java */,
+				230494521BA6BBF6004FC6ED /* pinyin4j */,
+				230494631BA6BBF6004FC6ED /* platform */,
+				230494671BA6BBF6004FC6ED /* record */,
+				2304946D1BA6BBF6004FC6ED /* tools */,
+				2304947F1BA6BBF6004FC6ED /* UploadImageHelper.java */,
+				230494801BA6BBF6004FC6ED /* UserActionManger.java */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+		230494441BA6BBF6004FC6ED /* callback */ = {
+			isa = PBXGroup;
+			children = (
+				230494451BA6BBF6004FC6ED /* ICallback.java */,
+			);
+			path = callback;
+			sourceTree = "<group>";
+		};
+		2304944A1BA6BBF6004FC6ED /* json */ = {
+			isa = PBXGroup;
+			children = (
+				2304944B1BA6BBF6004FC6ED /* JSON.java */,
+				2304944C1BA6BBF6004FC6ED /* JSONArray.java */,
+				2304944D1BA6BBF6004FC6ED /* JSONException.java */,
+				2304944E1BA6BBF6004FC6ED /* JSONObject.java */,
+				2304944F1BA6BBF6004FC6ED /* JSONStringer.java */,
+				230494501BA6BBF6004FC6ED /* JSONTokener.java */,
+			);
+			path = json;
+			sourceTree = "<group>";
+		};
+		230494521BA6BBF6004FC6ED /* pinyin4j */ = {
+			isa = PBXGroup;
+			children = (
+				230494531BA6BBF6004FC6ED /* BadHanyuPinyinOutputFormatCombination.java */,
+				230494541BA6BBF6004FC6ED /* ChineseToPinyinResource.java */,
+				230494551BA6BBF6004FC6ED /* GwoyeuRomatzyhResource.java */,
+				230494561BA6BBF6004FC6ED /* GwoyeuRomatzyhTranslator.java */,
+				230494571BA6BBF6004FC6ED /* HanyuPinyinCaseType.java */,
+				230494581BA6BBF6004FC6ED /* HanyuPinyinOutputFormat.java */,
+				230494591BA6BBF6004FC6ED /* HanyuPinyinToneType.java */,
+				2304945A1BA6BBF6004FC6ED /* HanyuPinyinVCharType.java */,
+				2304945B1BA6BBF6004FC6ED /* PinyinFormatter.java */,
+				2304945C1BA6BBF6004FC6ED /* PinyinHelper.java */,
+				2304945D1BA6BBF6004FC6ED /* PinyinRomanizationResource.java */,
+				2304945E1BA6BBF6004FC6ED /* PinyinRomanizationTranslator.java */,
+				2304945F1BA6BBF6004FC6ED /* PinyinRomanizationType.java */,
+				230494601BA6BBF6004FC6ED /* ResourceHelper.java */,
+				230494611BA6BBF6004FC6ED /* TextHelper.java */,
+				230494621BA6BBF6004FC6ED /* unicode_to_hanyu_pinyin.txt */,
+			);
+			path = pinyin4j;
+			sourceTree = "<group>";
+		};
+		230494631BA6BBF6004FC6ED /* platform */ = {
+			isa = PBXGroup;
+			children = (
+				230494641BA6BBF6004FC6ED /* DES3Utils.java */,
+				230494651BA6BBF6004FC6ED /* HMACSHA1.java */,
+				230494661BA6BBF6004FC6ED /* Platform.java */,
+			);
+			path = platform;
+			sourceTree = "<group>";
+		};
+		230494671BA6BBF6004FC6ED /* record */ = {
+			isa = PBXGroup;
+			children = (
+				230494681BA6BBF6004FC6ED /* RecordCache.java */,
+				230494691BA6BBF6004FC6ED /* RecordConstants.java */,
+				2304946A1BA6BBF6004FC6ED /* RecordTool.java */,
+				2304946B1BA6BBF6004FC6ED /* RecordUploadNotify.java */,
+				2304946C1BA6BBF6004FC6ED /* SnapPhotoManager.java */,
+			);
+			path = record;
+			sourceTree = "<group>";
+		};
+		2304946D1BA6BBF6004FC6ED /* tools */ = {
+			isa = PBXGroup;
+			children = (
+				2304946E1BA6BBF6004FC6ED /* AeSimpleSHA1.java */,
+				2304946F1BA6BBF6004FC6ED /* BaiduAnalysis.java */,
+				230494701BA6BBF6004FC6ED /* Base64Util.java */,
+				230494711BA6BBF6004FC6ED /* CareConstants.java */,
+				230494721BA6BBF6004FC6ED /* Constants.java */,
+				230494731BA6BBF6004FC6ED /* Data.java */,
+				230494741BA6BBF6004FC6ED /* Encryption.java */,
+				230494751BA6BBF6004FC6ED /* FQLog.java */,
+				230494761BA6BBF6004FC6ED /* FQRemoteDebugTool.java */,
+				230494771BA6BBF6004FC6ED /* MD5.java */,
+				230494781BA6BBF6004FC6ED /* SettingFollowUpManager.java */,
+				230494791BA6BBF6004FC6ED /* SHA1.java */,
+				2304947A1BA6BBF6004FC6ED /* StrDataComparator.java */,
+				2304947B1BA6BBF6004FC6ED /* TimeFormatUtils.java */,
+				2304947C1BA6BBF6004FC6ED /* Tool.java */,
+				2304947D1BA6BBF6004FC6ED /* UriConstants.java */,
+				2304947E1BA6BBF6004FC6ED /* UserProfileManager.java */,
+			);
+			path = tools;
+			sourceTree = "<group>";
+		};
+		9E0082581AFA1AD9005428AB = {
+			isa = PBXGroup;
+			children = (
+				9E0084BA1AFA2210005428AB /* Frameworks */,
+				9E0082DB1AFA1C5B005428AB /* JavaSrc */,
+				9E00827C1AFA1BAC005428AB /* IOS */,
+				9E0082B31AFA1BAC005428AB /* Java_implement */,
+				9E00827B1AFA1B59005428AB /* Extends.pch */,
+				9E0082621AFA1AD9005428AB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9E0082621AFA1AD9005428AB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9E0082611AFA1AD9005428AB /* libExtends.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9E00827C1AFA1BAC005428AB /* IOS */ = {
+			isa = PBXGroup;
+			children = (
+				9EE51CF11B69F4C5007E6361 /* Platform_IOS.h */,
+				9EE51CF21B69F4C5007E6361 /* Platform_IOS.m */,
+				9E606AEF1B6276F800C55C98 /* Reachability.h */,
+				9E606AF01B6276F800C55C98 /* Reachability.m */,
+				9E00827D1AFA1BAC005428AB /* DES3Utils_IOS.h */,
+				9E00827E1AFA1BAC005428AB /* DES3Utils_IOS.m */,
+				9E00827F1AFA1BAC005428AB /* FQSecuritySession_IOS.h */,
+				9E0082801AFA1BAC005428AB /* FQSecuritySession_IOS.m */,
+				9E0082811AFA1BAC005428AB /* GTMBase64.h */,
+				9E0082821AFA1BAC005428AB /* GTMBase64.m */,
+				9E0082831AFA1BAC005428AB /* GTMDefines.h */,
+				9E0082841AFA1BAC005428AB /* HMACSHA1_IOS.h */,
+				9E0082851AFA1BAC005428AB /* HMACSHA1_IOS.m */,
+				9E0082861AFA1BAC005428AB /* http */,
+			);
+			path = IOS;
+			sourceTree = "<group>";
+		};
+		9E0082861AFA1BAC005428AB /* http */ = {
+			isa = PBXGroup;
+			children = (
+				9E0082871AFA1BAC005428AB /* AFNetworking */,
+				9E00829B1AFA1BAC005428AB /* HttpClient_IOS.h */,
+				9E00829C1AFA1BAC005428AB /* HttpClient_IOS.m */,
+				9E00829D1AFA1BAC005428AB /* HttpResponseHandle.h */,
+				9E00829E1AFA1BAC005428AB /* HttpResponseHandle.m */,
+				9E00829F1AFA1BAC005428AB /* UIKit+AFNetworking */,
+			);
+			path = http;
+			sourceTree = "<group>";
+		};
+		9E0082871AFA1BAC005428AB /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				9E0082881AFA1BAC005428AB /* AFHTTPRequestOperation.h */,
+				9E0082891AFA1BAC005428AB /* AFHTTPRequestOperation.m */,
+				9E00828A1AFA1BAC005428AB /* AFHTTPRequestOperationManager.h */,
+				9E00828B1AFA1BAC005428AB /* AFHTTPRequestOperationManager.m */,
+				9E00828C1AFA1BAC005428AB /* AFHTTPSessionManager.h */,
+				9E00828D1AFA1BAC005428AB /* AFHTTPSessionManager.m */,
+				9E00828E1AFA1BAC005428AB /* AFNetworking.h */,
+				9E00828F1AFA1BAC005428AB /* AFNetworkReachabilityManager.h */,
+				9E0082901AFA1BAC005428AB /* AFNetworkReachabilityManager.m */,
+				9E0082911AFA1BAC005428AB /* AFSecurityPolicy.h */,
+				9E0082921AFA1BAC005428AB /* AFSecurityPolicy.m */,
+				9E0082931AFA1BAC005428AB /* AFURLConnectionOperation.h */,
+				9E0082941AFA1BAC005428AB /* AFURLConnectionOperation.m */,
+				9E0082951AFA1BAC005428AB /* AFURLRequestSerialization.h */,
+				9E0082961AFA1BAC005428AB /* AFURLRequestSerialization.m */,
+				9E0082971AFA1BAC005428AB /* AFURLResponseSerialization.h */,
+				9E0082981AFA1BAC005428AB /* AFURLResponseSerialization.m */,
+				9E0082991AFA1BAC005428AB /* AFURLSessionManager.h */,
+				9E00829A1AFA1BAC005428AB /* AFURLSessionManager.m */,
+			);
+			path = AFNetworking;
+			sourceTree = "<group>";
+		};
+		9E00829F1AFA1BAC005428AB /* UIKit+AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				9E0082A01AFA1BAC005428AB /* AFNetworkActivityIndicatorManager.h */,
+				9E0082A11AFA1BAC005428AB /* AFNetworkActivityIndicatorManager.m */,
+				9E0082A21AFA1BAC005428AB /* UIActivityIndicatorView+AFNetworking.h */,
+				9E0082A31AFA1BAC005428AB /* UIActivityIndicatorView+AFNetworking.m */,
+				9E0082A41AFA1BAC005428AB /* UIAlertView+AFNetworking.h */,
+				9E0082A51AFA1BAC005428AB /* UIAlertView+AFNetworking.m */,
+				9E0082A61AFA1BAC005428AB /* UIButton+AFNetworking.h */,
+				9E0082A71AFA1BAC005428AB /* UIButton+AFNetworking.m */,
+				9E0082A81AFA1BAC005428AB /* UIImageView+AFNetworking.h */,
+				9E0082A91AFA1BAC005428AB /* UIImageView+AFNetworking.m */,
+				9E0082AA1AFA1BAC005428AB /* UIKit+AFNetworking.h */,
+				9E0082AB1AFA1BAC005428AB /* UIProgressView+AFNetworking.h */,
+				9E0082AC1AFA1BAC005428AB /* UIProgressView+AFNetworking.m */,
+				9E0082AD1AFA1BAC005428AB /* UIRefreshControl+AFNetworking.h */,
+				9E0082AE1AFA1BAC005428AB /* UIRefreshControl+AFNetworking.m */,
+				9E0082AF1AFA1BAC005428AB /* UIWebView+AFNetworking.h */,
+				9E0082B01AFA1BAC005428AB /* UIWebView+AFNetworking.m */,
+			);
+			path = "UIKit+AFNetworking";
+			sourceTree = "<group>";
+		};
+		9E0082B31AFA1BAC005428AB /* Java_implement */ = {
+			isa = PBXGroup;
+			children = (
+				9E0082B41AFA1BAC005428AB /* com */,
+			);
+			path = Java_implement;
+			sourceTree = "<group>";
+		};
+		9E0082B41AFA1BAC005428AB /* com */ = {
+			isa = PBXGroup;
+			children = (
+				9E0082B51AFA1BAC005428AB /* fq */,
+				9E0082BB1AFA1BAC005428AB /* loopj */,
+			);
+			path = com;
+			sourceTree = "<group>";
+		};
+		9E0082B51AFA1BAC005428AB /* fq */ = {
+			isa = PBXGroup;
+			children = (
+				9E0082B61AFA1BAC005428AB /* http */,
+			);
+			path = fq;
+			sourceTree = "<group>";
+		};
+		9E0082B61AFA1BAC005428AB /* http */ = {
+			isa = PBXGroup;
+			children = (
+				9E0082B71AFA1BAC005428AB /* async */,
+			);
+			path = http;
+			sourceTree = "<group>";
+		};
+		9E0082B71AFA1BAC005428AB /* async */ = {
+			isa = PBXGroup;
+			children = (
+				9E0082B81AFA1BAC005428AB /* FQHttpParams.java */,
+				9E0082B91AFA1BAC005428AB /* uploadloop */,
+			);
+			path = async;
+			sourceTree = "<group>";
+		};
+		9E0082B91AFA1BAC005428AB /* uploadloop */ = {
+			isa = PBXGroup;
+			children = (
+				9E0082BA1AFA1BAC005428AB /* FQLooper.java */,
+			);
+			path = uploadloop;
+			sourceTree = "<group>";
+		};
+		9E0082BB1AFA1BAC005428AB /* loopj */ = {
+			isa = PBXGroup;
+			children = (
+				9E0082BC1AFA1BAC005428AB /* android */,
+			);
+			path = loopj;
+			sourceTree = "<group>";
+		};
+		9E0082BC1AFA1BAC005428AB /* android */ = {
+			isa = PBXGroup;
+			children = (
+				9E0082BD1AFA1BAC005428AB /* http */,
+			);
+			path = android;
+			sourceTree = "<group>";
+		};
+		9E0082BD1AFA1BAC005428AB /* http */ = {
+			isa = PBXGroup;
+			children = (
+				9E0082BE1AFA1BAC005428AB /* RequestParams.java */,
+			);
+			path = http;
+			sourceTree = "<group>";
+		};
+		9E0082DB1AFA1C5B005428AB /* JavaSrc */ = {
+			isa = PBXGroup;
+			children = (
+				230493721BA6BBF6004FC6ED /* com */,
+			);
+			name = JavaSrc;
+			sourceTree = "<group>";
+		};
+		9E0084BA1AFA2210005428AB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9EB435961B6B102900B14207 /* CoreTelephony.framework */,
+				9E48C3E71AFA5C6200A23708 /* SystemConfiguration.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9E0082601AFA1AD9005428AB /* Extends */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9E0082751AFA1AD9005428AB /* Build configuration list for PBXNativeTarget "Extends" */;
+			buildPhases = (
+				9E00825D1AFA1AD9005428AB /* Sources */,
+				9E00825E1AFA1AD9005428AB /* Frameworks */,
+				9E00825F1AFA1AD9005428AB /* CopyFiles */,
+			);
+			buildRules = (
+				9E0082DA1AFA1BE5005428AB /* PBXBuildRule */,
+			);
+			dependencies = (
+			);
+			name = Extends;
+			productName = Extends;
+			productReference = 9E0082611AFA1AD9005428AB /* libExtends.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9E0082591AFA1AD9005428AB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "廖敏";
+				TargetAttributes = {
+					9E0082601AFA1AD9005428AB = {
+						CreatedOnToolsVersion = 6.1;
+					};
+				};
+			};
+			buildConfigurationList = 9E00825C1AFA1AD9005428AB /* Build configuration list for PBXProject "Extends" */;
+			compatibilityVersion = "Xcode 6.3";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9E0082581AFA1AD9005428AB;
+			productRefGroup = 9E0082621AFA1AD9005428AB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9E0082601AFA1AD9005428AB /* Extends */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9E00825D1AFA1AD9005428AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2304957B1BA6BBF6004FC6ED /* RecordConstants.java in Sources */,
+				9E0082CC1AFA1BAC005428AB /* HttpClient_IOS.m in Sources */,
+				9E0082BF1AFA1BAC005428AB /* DES3Utils_IOS.m in Sources */,
+				230494E11BA6BBF6004FC6ED /* GetImagePathLogic.java in Sources */,
+				2304956E1BA6BBF6004FC6ED /* HanyuPinyinToneType.java in Sources */,
+				230494F91BA6BBF6004FC6ED /* AddOneFollowUpLogic.java in Sources */,
+				230494E41BA6BBF6004FC6ED /* LoginLogic.java in Sources */,
+				230495091BA6BBF6004FC6ED /* EditOneExamItemLogic.java in Sources */,
+				230495171BA6BBF6004FC6ED /* LogicExamCharts.java in Sources */,
+				230494BA1BA6BBF6004FC6ED /* PhotoRecord.java in Sources */,
+				230494A01BA6BBF6004FC6ED /* ApiSystem.java in Sources */,
+				2304958D1BA6BBF6004FC6ED /* Tool.java in Sources */,
+				230495071BA6BBF6004FC6ED /* DoctorAddFriendLogic.java in Sources */,
+				2304951F1BA6BBF6004FC6ED /* RequestMedicineLogic.java in Sources */,
+				230495031BA6BBF6004FC6ED /* CreateRecordLogic.java in Sources */,
+				230494B41BA6BBF6004FC6ED /* Medicine.java in Sources */,
+				9E0082C71AFA1BAC005428AB /* AFSecurityPolicy.m in Sources */,
+				230494D11BA6BBF6004FC6ED /* UserAction.java in Sources */,
+				2304955C1BA6BBF6004FC6ED /* ICallback.java in Sources */,
+				230494EB1BA6BBF6004FC6ED /* PatientNameLogic.java in Sources */,
+				2304958E1BA6BBF6004FC6ED /* UriConstants.java in Sources */,
+				230495181BA6BBF6004FC6ED /* ModifyPatientNameLogic.java in Sources */,
+				9E606AF11B6276F800C55C98 /* Reachability.m in Sources */,
+				230495741BA6BBF6004FC6ED /* PinyinRomanizationType.java in Sources */,
+				230495711BA6BBF6004FC6ED /* PinyinHelper.java in Sources */,
+				230494F41BA6BBF6004FC6ED /* UpLoadChatImageLogic.java in Sources */,
+				230494D51BA6BBF6004FC6ED /* VisualMap.java in Sources */,
+				230494EE1BA6BBF6004FC6ED /* RecordListLogic.java in Sources */,
+				230495191BA6BBF6004FC6ED /* ModifyRecordNameLogic.java in Sources */,
+				230495601BA6BBF6004FC6ED /* IOHelper.java in Sources */,
+				230495011BA6BBF6004FC6ED /* ContactLogic.java in Sources */,
+				230494E71BA6BBF6004FC6ED /* CloudRecognizeLogic.java in Sources */,
+				230495001BA6BBF6004FC6ED /* ChangeDPNameLogic.java in Sources */,
+				230495241BA6BBF6004FC6ED /* SearchFollowUpTempleDetailLogic.java in Sources */,
+				230495511BA6BBF6004FC6ED /* LoopUpLoadCell.java in Sources */,
+				2304951D1BA6BBF6004FC6ED /* RemoveRecordItemLogic.java in Sources */,
+				230494DE1BA6BBF6004FC6ED /* ReportChartLogic.java in Sources */,
+				230494A91BA6BBF6004FC6ED /* Department.java in Sources */,
+				230495501BA6BBF6004FC6ED /* LoopCellHandle.java in Sources */,
+				9E0082C21AFA1BAC005428AB /* HMACSHA1_IOS.m in Sources */,
+				230494E51BA6BBF6004FC6ED /* AddMemberLogic.java in Sources */,
+				2304953E1BA6BBF6004FC6ED /* PersonInfoUILogic.java in Sources */,
+				9E0082D71AFA1BAC005428AB /* FQHttpParams.java in Sources */,
+				230495341BA6BBF6004FC6ED /* ExamChartTools.java in Sources */,
+				2304957D1BA6BBF6004FC6ED /* RecordUploadNotify.java in Sources */,
+				9E0082CE1AFA1BAC005428AB /* AFNetworkActivityIndicatorManager.m in Sources */,
+				230495061BA6BBF6004FC6ED /* DelRecordLogic.java in Sources */,
+				2304955E1BA6BBF6004FC6ED /* FileHelper.java in Sources */,
+				230494A81BA6BBF6004FC6ED /* Contacts.java in Sources */,
+				230494AC1BA6BBF6004FC6ED /* FollowUp.java in Sources */,
+				2304956C1BA6BBF6004FC6ED /* HanyuPinyinCaseType.java in Sources */,
+				230494DF1BA6BBF6004FC6ED /* CheckVersionLogic.java in Sources */,
+				2304957C1BA6BBF6004FC6ED /* RecordTool.java in Sources */,
+				230494DB1BA6BBF6004FC6ED /* HalyconOnLineHandle.java in Sources */,
+				2304953B1BA6BBF6004FC6ED /* ChangePasswordUILogic.java in Sources */,
+				230495761BA6BBF6004FC6ED /* TextHelper.java in Sources */,
+				230495871BA6BBF6004FC6ED /* FQRemoteDebugTool.java in Sources */,
+				230495461BA6BBF6004FC6ED /* UIAuthLogic.java in Sources */,
+				230495611BA6BBF6004FC6ED /* JSON.java in Sources */,
+				230495221BA6BBF6004FC6ED /* SearchDepartmentLogic.java in Sources */,
+				230494B81BA6BBF6004FC6ED /* Person.java in Sources */,
+				2304954E1BA6BBF6004FC6ED /* FQLoopQueue.java in Sources */,
+				230495821BA6BBF6004FC6ED /* CareConstants.java in Sources */,
+				230495121BA6BBF6004FC6ED /* GetRecordItemLogic.java in Sources */,
+				230494DC1BA6BBF6004FC6ED /* IOS.java in Sources */,
+				230495771BA6BBF6004FC6ED /* DES3Utils.java in Sources */,
+				2304956F1BA6BBF6004FC6ED /* HanyuPinyinVCharType.java in Sources */,
+				230494A11BA6BBF6004FC6ED /* AlarmClock.java in Sources */,
+				9EE51CF31B69F4C5007E6361 /* Platform_IOS.m in Sources */,
+				230495791BA6BBF6004FC6ED /* Platform.java in Sources */,
+				230495481BA6BBF6004FC6ED /* OneCopy.java in Sources */,
+				9E0082C41AFA1BAC005428AB /* AFHTTPRequestOperationManager.m in Sources */,
+				2304951A1BA6BBF6004FC6ED /* OperateFollowUpTempleLogic.java in Sources */,
+				2304951B1BA6BBF6004FC6ED /* PostRemarkLogic.java in Sources */,
+				9E0082C81AFA1BAC005428AB /* AFURLConnectionOperation.m in Sources */,
+				230495211BA6BBF6004FC6ED /* ResquestIdentfyLogic.java in Sources */,
+				2304956B1BA6BBF6004FC6ED /* GwoyeuRomatzyhTranslator.java in Sources */,
+				230494BE1BA6BBF6004FC6ED /* RecordAbstract.java in Sources */,
+				230494DD1BA6BBF6004FC6ED /* BaseLogic.java in Sources */,
+				230495351BA6BBF6004FC6ED /* PhotosManager.java in Sources */,
+				230494F81BA6BBF6004FC6ED /* UploadStateLogic.java in Sources */,
+				230495841BA6BBF6004FC6ED /* Data.java in Sources */,
+				230494C61BA6BBF6004FC6ED /* RecordItem.java in Sources */,
+				2304952B1BA6BBF6004FC6ED /* ShareRecordLogic.java in Sources */,
+				9E0082D31AFA1BAC005428AB /* UIProgressView+AFNetworking.m in Sources */,
+				230495441BA6BBF6004FC6ED /* SaveInfoUILogic.java in Sources */,
+				230495381BA6BBF6004FC6ED /* Trash.java in Sources */,
+				230494A31BA6BBF6004FC6ED /* MedicalReport.java in Sources */,
+				230494F01BA6BBF6004FC6ED /* SearchLogic.java in Sources */,
+				230495391BA6BBF6004FC6ED /* SequenceHandel.java in Sources */,
+				230495801BA6BBF6004FC6ED /* BaiduAnalysis.java in Sources */,
+				230494B21BA6BBF6004FC6ED /* ItemExam.java in Sources */,
+				2304957F1BA6BBF6004FC6ED /* AeSimpleSHA1.java in Sources */,
+				230494B71BA6BBF6004FC6ED /* PatientFriend.java in Sources */,
+				230495891BA6BBF6004FC6ED /* SettingFollowUpManager.java in Sources */,
+				230494FB1BA6BBF6004FC6ED /* AddRecordLogic.java in Sources */,
+				9E0082C31AFA1BAC005428AB /* AFHTTPRequestOperation.m in Sources */,
+				2304953D1BA6BBF6004FC6ED /* ChartModel.java in Sources */,
+				230495141BA6BBF6004FC6ED /* GetRecordTypeListLogic.java in Sources */,
+				230494C41BA6BBF6004FC6ED /* RecordExams.java in Sources */,
+				230494FF1BA6BBF6004FC6ED /* CancleFollowUpLogic.java in Sources */,
+				9E0082C11AFA1BAC005428AB /* GTMBase64.m in Sources */,
+				230494E21BA6BBF6004FC6ED /* GetProviderLogic.java in Sources */,
+				230494D91BA6BBF6004FC6ED /* HalcyonHttpResponseHandle.java in Sources */,
+				230494C01BA6BBF6004FC6ED /* SearchFilter.java in Sources */,
+				230494D31BA6BBF6004FC6ED /* VisualData.java in Sources */,
+				230494E91BA6BBF6004FC6ED /* DelMemberLogic.java in Sources */,
+				230494E01BA6BBF6004FC6ED /* DoctorAuthLogic.java in Sources */,
+				230494C81BA6BBF6004FC6ED /* RecordType.java in Sources */,
+				230494AA1BA6BBF6004FC6ED /* Doctor.java in Sources */,
+				230494D61BA6BBF6004FC6ED /* VisualizeCard.java in Sources */,
+				230494A41BA6BBF6004FC6ED /* CertificationStatus.java in Sources */,
+				230494F51BA6BBF6004FC6ED /* UpLoadChatImageManager.java in Sources */,
+				2304951E1BA6BBF6004FC6ED /* RequestCSDLogic.java in Sources */,
+				230495311BA6BBF6004FC6ED /* UserInfoManagerLogic.java in Sources */,
+				9E0082C91AFA1BAC005428AB /* AFURLRequestSerialization.m in Sources */,
+				230495411BA6BBF6004FC6ED /* RecordDTNormalLogic.java in Sources */,
+				230494CE1BA6BBF6004FC6ED /* Timer.java in Sources */,
+				230495051BA6BBF6004FC6ED /* DelPatientLogic.java in Sources */,
+				230495811BA6BBF6004FC6ED /* Base64Util.java in Sources */,
+				2304955A1BA6BBF6004FC6ED /* HttpRequestPotocol.java in Sources */,
+				230495321BA6BBF6004FC6ED /* ViewOCRInfoLogic.java in Sources */,
+				230495701BA6BBF6004FC6ED /* PinyinFormatter.java in Sources */,
+				2304954C1BA6BBF6004FC6ED /* ParamsWrapper.java in Sources */,
+				230495261BA6BBF6004FC6ED /* SearchHospitalLogic.java in Sources */,
+				230495491BA6BBF6004FC6ED /* OneType.java in Sources */,
+				9E0082D11AFA1BAC005428AB /* UIButton+AFNetworking.m in Sources */,
+				230495151BA6BBF6004FC6ED /* HomeGetChartDataLogic.java in Sources */,
+				230494A51BA6BBF6004FC6ED /* ChartEntity.java in Sources */,
+				230494CC1BA6BBF6004FC6ED /* SurveyRecordItem.java in Sources */,
+				2304955D1BA6BBF6004FC6ED /* ChinesetSortHelper.java in Sources */,
+				2304950B1BA6BBF6004FC6ED /* FollowUpTempleListLogic.java in Sources */,
+				230495161BA6BBF6004FC6ED /* HomeMessageLogic.java in Sources */,
+				230495111BA6BBF6004FC6ED /* GetRecordInfoByItemLogic.java in Sources */,
+				230495901BA6BBF6004FC6ED /* UploadImageHelper.java in Sources */,
+				230495251BA6BBF6004FC6ED /* SearchFriendsLogic.java in Sources */,
+				9E0082D21AFA1BAC005428AB /* UIImageView+AFNetworking.m in Sources */,
+				2304956A1BA6BBF6004FC6ED /* GwoyeuRomatzyhResource.java in Sources */,
+				230495401BA6BBF6004FC6ED /* RecordDTLogic.java in Sources */,
+				230494CF1BA6BBF6004FC6ED /* TimerMember.java in Sources */,
+				230494B51BA6BBF6004FC6ED /* OnceFollowUpCycle.java in Sources */,
+				230494EF1BA6BBF6004FC6ED /* RecycleLogic.java in Sources */,
+				230494BF1BA6BBF6004FC6ED /* RecordData.java in Sources */,
+				230495271BA6BBF6004FC6ED /* SearchPatientDetailLogic.java in Sources */,
+				230494DA1BA6BBF6004FC6ED /* HalcyonUploadLooper.java in Sources */,
+				230494CD1BA6BBF6004FC6ED /* Tag.java in Sources */,
+				2304956D1BA6BBF6004FC6ED /* HanyuPinyinOutputFormat.java in Sources */,
+				230494B11BA6BBF6004FC6ED /* Hospital.java in Sources */,
+				230494C21BA6BBF6004FC6ED /* StandardExamRecord.java in Sources */,
+				2304952D1BA6BBF6004FC6ED /* SurveyRecordLogic.java in Sources */,
+				230494D41BA6BBF6004FC6ED /* VisualizeEntity.java in Sources */,
+				230495551BA6BBF6004FC6ED /* FQHttpResponseInterface.java in Sources */,
+				230494FD1BA6BBF6004FC6ED /* AnnualFreeLogic.java in Sources */,
+				230495431BA6BBF6004FC6ED /* ReportDocumentUILogic.java in Sources */,
+				230495201BA6BBF6004FC6ED /* ResetDoctorInfoLogic.java in Sources */,
+				9E0082C51AFA1BAC005428AB /* AFHTTPSessionManager.m in Sources */,
+				230495861BA6BBF6004FC6ED /* FQLog.java in Sources */,
+				230495591BA6BBF6004FC6ED /* HttpParamPotocol.java in Sources */,
+				230495881BA6BBF6004FC6ED /* MD5.java in Sources */,
+				9E0082C61AFA1BAC005428AB /* AFNetworkReachabilityManager.m in Sources */,
+				9E0082D01AFA1BAC005428AB /* UIAlertView+AFNetworking.m in Sources */,
+				230494B61BA6BBF6004FC6ED /* Patient.java in Sources */,
+				230495831BA6BBF6004FC6ED /* Constants.java in Sources */,
+				2304951C1BA6BBF6004FC6ED /* ReadUserInfoLogic.java in Sources */,
+				230494EC1BA6BBF6004FC6ED /* PatientUpdateListLogic.java in Sources */,
+				230495531BA6BBF6004FC6ED /* FQBinaryResponseHandle.java in Sources */,
+				230495581BA6BBF6004FC6ED /* HttpClientPotocol.java in Sources */,
+				230495571BA6BBF6004FC6ED /* FQStringResponseHandle.java in Sources */,
+				230495651BA6BBF6004FC6ED /* JSONStringer.java in Sources */,
+				230494F31BA6BBF6004FC6ED /* StructuredLogic.java in Sources */,
+				230495691BA6BBF6004FC6ED /* ChineseToPinyinResource.java in Sources */,
+				230494EA1BA6BBF6004FC6ED /* GetMemberListLogic.java in Sources */,
+				230494F11BA6BBF6004FC6ED /* SendPatientLogic.java in Sources */,
+				230494C71BA6BBF6004FC6ED /* RecordItemSamp.java in Sources */,
+				2304955F1BA6BBF6004FC6ED /* HttpHelper.java in Sources */,
+				2304953F1BA6BBF6004FC6ED /* RecordDTExamLogic.java in Sources */,
+				230494AD1BA6BBF6004FC6ED /* FollowUpTemple.java in Sources */,
+				230495671BA6BBF6004FC6ED /* JsonHelper.java in Sources */,
+				230495641BA6BBF6004FC6ED /* JSONObject.java in Sources */,
+				9E0082D51AFA1BAC005428AB /* UIWebView+AFNetworking.m in Sources */,
+				230495471BA6BBF6004FC6ED /* UILoginLogic.java in Sources */,
+				230494AB1BA6BBF6004FC6ED /* Exam.java in Sources */,
+				230494F21BA6BBF6004FC6ED /* ShareLogic.java in Sources */,
+				230495131BA6BBF6004FC6ED /* GetRecordListLogic.java in Sources */,
+				230494A61BA6BBF6004FC6ED /* ChatUserInfo.java in Sources */,
+				230494AF1BA6BBF6004FC6ED /* HomeData.java in Sources */,
+				230494FA1BA6BBF6004FC6ED /* AddOrRefuseFriendLogic.java in Sources */,
+				230494E81BA6BBF6004FC6ED /* DelGroupChatLogic.java in Sources */,
+				230494F71BA6BBF6004FC6ED /* SaveCDSLogic.java in Sources */,
+				230495361BA6BBF6004FC6ED /* ReadHistoryManager.java in Sources */,
+				2304957E1BA6BBF6004FC6ED /* SnapPhotoManager.java in Sources */,
+				230494B31BA6BBF6004FC6ED /* LeaveMessage.java in Sources */,
+				2304952E1BA6BBF6004FC6ED /* TagLogic.java in Sources */,
+				2304953C1BA6BBF6004FC6ED /* ChangePhoneUILogic.java in Sources */,
+				230495561BA6BBF6004FC6ED /* FQJsonResponseHandle.java in Sources */,
+				230494C11BA6BBF6004FC6ED /* SearchParams.java in Sources */,
+				230494D71BA6BBF6004FC6ED /* FileSystem.java in Sources */,
+				9E0082CF1AFA1BAC005428AB /* UIActivityIndicatorView+AFNetworking.m in Sources */,
+				2304954F1BA6BBF6004FC6ED /* LoopCell.java in Sources */,
+				230495721BA6BBF6004FC6ED /* PinyinRomanizationResource.java in Sources */,
+				2304958A1BA6BBF6004FC6ED /* SHA1.java in Sources */,
+				2304950E1BA6BBF6004FC6ED /* GetPatientItemExamLogic.java in Sources */,
+				230495541BA6BBF6004FC6ED /* FQHttpResponseHandle.java in Sources */,
+				2304952C1BA6BBF6004FC6ED /* SurveyPatientLogic.java in Sources */,
+				230495731BA6BBF6004FC6ED /* PinyinRomanizationTranslator.java in Sources */,
+				230494FC1BA6BBF6004FC6ED /* AlarmClockLogic.java in Sources */,
+				230495631BA6BBF6004FC6ED /* JSONException.java in Sources */,
+				2304954A1BA6BBF6004FC6ED /* FQHeader.java in Sources */,
+				230495421BA6BBF6004FC6ED /* RegisterUILogic.java in Sources */,
+				230495451BA6BBF6004FC6ED /* TagUtils.java in Sources */,
+				230494E61BA6BBF6004FC6ED /* ChatGroupLogic.java in Sources */,
+				2304958B1BA6BBF6004FC6ED /* StrDataComparator.java in Sources */,
+				230494F61BA6BBF6004FC6ED /* RegisterLogic.java in Sources */,
+				230494BB1BA6BBF6004FC6ED /* MyRelationship.java in Sources */,
+				230494D01BA6BBF6004FC6ED /* User.java in Sources */,
+				230494C51BA6BBF6004FC6ED /* RecordInfo.java in Sources */,
+				230495751BA6BBF6004FC6ED /* ResourceHelper.java in Sources */,
+				9E0082CA1AFA1BAC005428AB /* AFURLResponseSerialization.m in Sources */,
+				230494AE1BA6BBF6004FC6ED /* HalcyonEntity.java in Sources */,
+				2304952A1BA6BBF6004FC6ED /* SettingLogic.java in Sources */,
+				230494A21BA6BBF6004FC6ED /* MedicalItem.java in Sources */,
+				2304952F1BA6BBF6004FC6ED /* UploadFeedBackLogic.java in Sources */,
+				9E0082D91AFA1BAC005428AB /* RequestParams.java in Sources */,
+				9E0082D41AFA1BAC005428AB /* UIRefreshControl+AFNetworking.m in Sources */,
+				230495371BA6BBF6004FC6ED /* SearchHistoryManager.java in Sources */,
+				230494C91BA6BBF6004FC6ED /* Remark.java in Sources */,
+				2304953A1BA6BBF6004FC6ED /* BrowseRecord.java in Sources */,
+				230494D81BA6BBF6004FC6ED /* PathUrlMap.java in Sources */,
+				230494CA1BA6BBF6004FC6ED /* ScoreDetail.java in Sources */,
+				2304955B1BA6BBF6004FC6ED /* PracticeResponseHandle.java in Sources */,
+				9E0082CB1AFA1BAC005428AB /* AFURLSessionManager.m in Sources */,
+				230495781BA6BBF6004FC6ED /* HMACSHA1.java in Sources */,
+				230494B91BA6BBF6004FC6ED /* Photo.java in Sources */,
+				230495911BA6BBF6004FC6ED /* UserActionManger.java in Sources */,
+				230495041BA6BBF6004FC6ED /* DeleteFollowUpTempleLogic.java in Sources */,
+				230495621BA6BBF6004FC6ED /* JSONArray.java in Sources */,
+				230494E31BA6BBF6004FC6ED /* GetUserTotalDataLogic.java in Sources */,
+				9E0082D81AFA1BAC005428AB /* FQLooper.java in Sources */,
+				230495021BA6BBF6004FC6ED /* CreatePatientLogic.java in Sources */,
+				230495291BA6BBF6004FC6ED /* SendFollowUpLeaveMessageLogic.java in Sources */,
+				230495101BA6BBF6004FC6ED /* GetRecordDetailsLogic.java in Sources */,
+				230494CB1BA6BBF6004FC6ED /* SurveyPatientItem.java in Sources */,
+				9E0082C01AFA1BAC005428AB /* FQSecuritySession_IOS.m in Sources */,
+				230494C31BA6BBF6004FC6ED /* Record.java in Sources */,
+				230495851BA6BBF6004FC6ED /* Encryption.java in Sources */,
+				230495301BA6BBF6004FC6ED /* UploadRecordLogic.java in Sources */,
+				2304958F1BA6BBF6004FC6ED /* UserProfileManager.java in Sources */,
+				2304950D1BA6BBF6004FC6ED /* GetExamListLogic.java in Sources */,
+				230494A71BA6BBF6004FC6ED /* City.java in Sources */,
+				230495521BA6BBF6004FC6ED /* onHandlerCompleteListener.java in Sources */,
+				2304958C1BA6BBF6004FC6ED /* TimeFormatUtils.java in Sources */,
+				230494BC1BA6BBF6004FC6ED /* PatientAbstract.java in Sources */,
+				230495331BA6BBF6004FC6ED /* ViewRemarksLogic.java in Sources */,
+				230495681BA6BBF6004FC6ED /* BadHanyuPinyinOutputFormatCombination.java in Sources */,
+				2304950C1BA6BBF6004FC6ED /* GetAddingFriendsListLogic.java in Sources */,
+				230495661BA6BBF6004FC6ED /* JSONTokener.java in Sources */,
+				2304950F1BA6BBF6004FC6ED /* GetPatientListLogic.java in Sources */,
+				230494B01BA6BBF6004FC6ED /* HomeOneDayData.java in Sources */,
+				2304957A1BA6BBF6004FC6ED /* RecordCache.java in Sources */,
+				230495281BA6BBF6004FC6ED /* SearchPatientLogic.java in Sources */,
+				230494FE1BA6BBF6004FC6ED /* BrowsePicLogic.java in Sources */,
+				230495081BA6BBF6004FC6ED /* DoctorHomeLogic.java in Sources */,
+				230494ED1BA6BBF6004FC6ED /* RecognitionLogic.java in Sources */,
+				9E0082CD1AFA1BAC005428AB /* HttpResponseHandle.m in Sources */,
+				230494D21BA6BBF6004FC6ED /* Version.java in Sources */,
+				230495231BA6BBF6004FC6ED /* SearchFollowUpDetailLogic.java in Sources */,
+				2304950A1BA6BBF6004FC6ED /* ExpenseDetailLogic.java in Sources */,
+				230494BD1BA6BBF6004FC6ED /* PatientRecommendName.java in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		9E0082731AFA1AD9005428AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREFIX_HEADER = "${PROJECT_DIR}/Extends.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/liaomin/Desktop/Xcode\\ 6.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include",
+					"${PROJECT_DIR}/../Jout",
+					"${J2OBJC_HOME}/include",
+					"$(PROJECT_DIR)/../ThirdParty/TalkingData",
+					"$(PROJECT_DIR)/../Care/Tools-ObjectC",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				J2OBJC_HOME = "${PROJECT_DIR}/../j2objc-0.9.3";
+				LIBRARY_SEARCH_PATHS = (
+					"${J2OBJC_HOME}/lib",
+					"$(PROJECT_DIR)/../ThirdParty/TalkingData",
+				);
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-l\"jre_emul\"";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9E0082741AFA1AD9005428AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREFIX_HEADER = "${PROJECT_DIR}/Extends.pch";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/liaomin/Desktop/Xcode\\ 6.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include",
+					"${PROJECT_DIR}/../Jout",
+					"${J2OBJC_HOME}/include",
+					"$(PROJECT_DIR)/../ThirdParty/TalkingData",
+					"$(PROJECT_DIR)/../Care/Tools-ObjectC",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				J2OBJC_HOME = "${PROJECT_DIR}/../j2objc-0.9.3";
+				LIBRARY_SEARCH_PATHS = (
+					"${J2OBJC_HOME}/lib",
+					"$(PROJECT_DIR)/../ThirdParty/TalkingData",
+				);
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "-l\"jre_emul\"";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9E0082761AFA1AD9005428AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				DEFINES_MODULE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/liaomin/Desktop/Xcode\\ 6.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include",
+					"${PROJECT_DIR}/../Jout",
+					"${J2OBJC_HOME}/include",
+					"$(PROJECT_DIR)/../ThirdParty/TalkingData",
+					"$(PROJECT_DIR)/../Care/Tools",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		9E0082771AFA1AD9005428AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				DEFINES_MODULE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/liaomin/Desktop/Xcode\\ 6.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include",
+					"${PROJECT_DIR}/../Jout",
+					"${J2OBJC_HOME}/include",
+					"$(PROJECT_DIR)/../ThirdParty/TalkingData",
+					"$(PROJECT_DIR)/../Care/Tools",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9E00825C1AFA1AD9005428AB /* Build configuration list for PBXProject "Extends" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E0082731AFA1AD9005428AB /* Debug */,
+				9E0082741AFA1AD9005428AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9E0082751AFA1AD9005428AB /* Build configuration list for PBXNativeTarget "Extends" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E0082761AFA1AD9005428AB /* Debug */,
+				9E0082771AFA1AD9005428AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9E0082591AFA1AD9005428AB /* Project object */;
+}
